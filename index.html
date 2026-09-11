@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Paraphrase Trainer — GP Vocabulary</title>
+<meta name="description" content="Practice paraphrasing A-Level General Paper vocabulary in context, with instant scoring." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="eyebrow">GP vocabulary practice</div>
+      <h1>Paraphrase it.</h1>
+      <p>You'll get a word and a sentence using it. Type a different word or short phrase that keeps the same meaning — no reusing the original word.</p>
+    </header>
+
+    <div class="stats">
+      <div class="stat">
+        <span class="num" id="stat-attempts">0</span>
+        <span class="label">Attempts</span>
+      </div>
+      <div class="stat">
+        <span class="num" id="stat-avg">0</span>
+        <span class="label">Avg. score</span>
+      </div>
+      <div class="stat">
+        <span class="num" id="stat-streak">0</span>
+        <span class="label">Current streak</span>
+      </div>
+    </div>
+
+    <div class="controls">
+      <select id="difficulty-select">
+        <option value="all">All difficulties</option>
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      <button class="secondary" id="skip-btn">Skip word</button>
+    </div>
+
+    <main class="board-panel">
+      <span class="difficulty-tag" id="difficulty-tag">medium</span>
+      <h2 class="target-word" id="target-word">word</h2>
+      <p class="context-box" id="context-box">Loading context…</p>
+
+      <div class="answer-row">
+        <input type="text" id="answer-input" placeholder="Your paraphrase…" autocomplete="off" />
+        <button class="chalk-btn" id="submit-btn">Check</button>
+      </div>
+
+      <div class="feedback" id="feedback">
+        <div class="score-line">
+          <span class="score-num" id="score-num">0</span>
+          <span class="score-band" id="score-band"></span>
+        </div>
+        <p class="feedback-msg" id="feedback-msg"></p>
+        <div class="model-answers">
+          <div class="heading">Model paraphrases</div>
+          <div class="list" id="model-list"></div>
+          <p class="tip" id="model-tip"></p>
+        </div>
+        <div class="next-row">
+          <button class="chalk-btn" id="next-btn">Next word →</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      Scores are stored only in your browser. <button id="reset-stats-btn">Reset progress</button>
+    </footer>
+  </div>
+
+  <script src="words.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
