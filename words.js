@@ -236,7 +236,7 @@ const WORD_BANK = [
     word: "exemplify",
     context: "The rapid rise of TikTok **exemplifies** how quickly digital trends can spread.",
     difficulty: "medium",
-    synonyms: ["illustrate", "demonstrate", "epitomise", "typify", "show"],
+    synonyms: ["illustrates", "demonstrates", "epitomises", "typifies", "shows"],
     tip: "To serve as a clear, typical example of something."
   },
   {
@@ -364,6 +364,13 @@ const WORD_BANK = [
     difficulty: "easy",
     synonyms: ["accomplishment", "feat", "triumph", "milestone", "success"],
     tip: "Best used for a result gained through effort, not simply an event."
+  },
+  {
+    word: "achievemnet",
+    context: "Little Jim's greatest **achievement** is getting full marks on his spelling test.",
+    difficulty: "easy",
+    synonyms: ["accomplishment", "accolade", "success", "milestone", "attainment"],
+    tip: "think harder"
   },
   {
     word: "various",
@@ -523,7 +530,7 @@ const WORD_BANK = [
     word: "stifle",
     context: "Overly rigid curricula risk **stifling** students' curiosity and independent thought.",
     difficulty: "hard",
-    synonyms: ["suppress", "smother", "restrain", "curb", "quash"],
+    synonyms: ["suppressing", "smothering", "restraining", "curbing", "quashing"],
     tip: "Strongly negative — implies preventing something from developing naturally."
   },
   {
@@ -535,7 +542,7 @@ const WORD_BANK = [
   },
   {
     word: "real",
-    context: "The threat posed by rising sea levels is **real**, not a distant hypothetical.",
+    context: "Rising sea levels poses a real threat against humanity, not a distant hypothetical.",
     difficulty: "easy",
     synonyms: ["genuine", "actual", "tangible", "concrete", "authentic"],
     tip: "In argumentative writing, 'real' often contrasts with 'perceived' or 'hypothetical'."
@@ -642,7 +649,7 @@ const WORD_BANK = [
     word: "intellectual",
     context: "The university prides itself on fostering rigorous **intellectual** debate among students.",
     difficulty: "medium",
-    synonyms: ["scholarly", "academic", "cerebral", "analytical", "learned"],
+    synonyms: ["scholarly", "scholastic", "academic", "analytical", "learned"],
     tip: "Can describe a person, a debate, or a quality of thought — context determines the nuance."
   },
   {
