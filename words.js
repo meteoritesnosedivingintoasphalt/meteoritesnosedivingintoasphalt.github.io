@@ -2352,5 +2352,96 @@ const WORD_BANK = [
     difficulty: "medium",
     synonyms: ["while", "in contrast", "on the other hand"],
     tip: "A formal connector used to introduce a contrast between two clauses."
+  },
+  {
+    word: "nullify",
+    context: "A single clerical error can **nullify** an otherwise valid contract.",
+    difficulty: "hard",
+    synonyms: ["invalidate", "void", "annul", "cancel", "override"],
+    tip: "A formal legal/logical term for making something legally void, not merely weakening it."
+  },
+  {
+    word: "delete",
+    context: "Users can request platforms to permanently **delete** their personal data.",
+    difficulty: "easy",
+    synonyms: ["remove", "erase", "expunge", "eliminate"],
+    tip: "Commonly used for digital information, distinct from physical removal."
+  },
+  {
+    word: "sensible",
+    context: "A **sensible** compromise was reached after weeks of negotiation.",
+    difficulty: "easy",
+    synonyms: ["reasonable", "practical", "prudent", "wise"],
+    tip: "Do not confuse with 'sensitive' — 'sensible' means showing good judgement."
+  },
+  {
+    word: "awareness",
+    context: "Public **awareness** campaigns have helped reduce smoking rates significantly.",
+    difficulty: "easy",
+    synonyms: ["consciousness", "knowledge", "recognition", "understanding"],
+    tip: "Refers to knowing or perceiving a situation, often the goal of educational campaigns."
+  },
+  {
+    word: "information",
+    context: "Access to accurate **information** is essential during a public health crisis.",
+    difficulty: "easy",
+    synonyms: ["data", "facts", "knowledge", "details"],
+    tip: "An uncountable noun — never 'informations' in standard English."
+  },
+  {
+    word: "law",
+    context: "The new **law** requires firms to disclose data breaches within 72 hours.",
+    difficulty: "easy",
+    synonyms: ["legislation", "statute", "regulation", "act"],
+    tip: "Can refer to a specific rule or, more broadly, the entire legal system."
+  },
+  {
+    word: "propose",
+    context: "The committee will **propose** amendments to the current tax code next month.",
+    difficulty: "easy",
+    synonyms: ["suggest", "put forward", "recommend", "submit"],
+    tip: "To formally suggest a plan or idea for consideration."
+  },
+  {
+    word: "assert",
+    context: "The report **asserts** that current climate targets are unrealistic without reform.",
+    difficulty: "medium",
+    synonyms: ["claim", "maintain", "contend", "declare"],
+    tip: "Implies confident, forceful statement of a claim, often without full proof."
+  },
+  {
+    word: "rationale",
+    context: "The government has yet to provide a clear **rationale** for the policy shift.",
+    difficulty: "hard",
+    synonyms: ["reasoning", "justification", "basis", "logic"],
+    tip: "The underlying set of reasons for a decision or course of action."
+  },
+  {
+    word: "consensus",
+    context: "Scientific **consensus** on the issue has strengthened considerably in recent years.",
+    difficulty: "medium",
+    synonyms: ["agreement", "unanimity", "accord", "common view"],
+    tip: "General agreement among a group, especially experts, rather than a formal vote."
+  },
+  {
+    word: "qualified",
+    context: "Only **qualified** professionals are permitted to administer the treatment.",
+    difficulty: "medium",
+    synonyms: ["certified", "licensed", "accredited", "competent"],
+    tip: "Can also mean 'limited' or 'conditional', as in 'qualified support'."
+  },
+  {
+    word: "nuanced",
+    context: "The debate demands a more **nuanced** understanding than simple for-or-against positions allow.",
+    difficulty: "hard",
+    synonyms: ["subtle", "sophisticated", "layered", "refined"],
+    tip: "Describes fine, often overlooked distinctions within a complex issue."
+  },
+  {
+    word: "tentative",
+    context: "Negotiators reached a **tentative** agreement pending final approval from both governments.",
+    difficulty: "hard",
+    synonyms: ["provisional", "preliminary", "uncertain", "conditional"],
+    tip: "Signals something not yet fixed or confirmed, open to change."
   }
 ];
