@@ -742,5 +742,12 @@ const WORD_BANK = [
     difficulty: "hard",
     synonyms: ["satisfaction", "pleasure", "fulfilment", "reward", "indulgence"],
     tip: "Often contrasted with 'delayed gratification' — the ability to forgo immediate reward for long-term benefit."
+  },
+  {
+    word: "income",
+    context: "Little Jim brings home a monthly **income** of 5 bananas.",
+    difficulty: "easy",
+    synonyms: ["salary", "wage", "pay", "earning", "compensation"],
+    tip: "money earned from a job every month"
   }
 ];
