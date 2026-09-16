@@ -502,7 +502,7 @@ const WORD_BANK = [
     word: "deprive",
     context: "Censorship laws risk **depriving** citizens of access to independent journalism.",
     difficulty: "medium",
-    synonyms: ["deny", "withhold from", "strip of", "rob of", "dispossess"],
+    synonyms: ["denying", "withhold from", "stripping", "robbing", "dispossessing"],
     tip: "Always takes an object plus 'of' — 'deprive someone of something'."
   },
   {
