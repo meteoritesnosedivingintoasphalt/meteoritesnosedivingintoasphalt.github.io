@@ -2434,7 +2434,7 @@ const WORD_BANK = [
     word: "nuanced",
     context: "The debate demands a more **nuanced** understanding than simple for-or-against positions allow.",
     difficulty: "hard",
-    synonyms: ["subtle", "sophisticated", "layered", "refined"],
+    synonyms: ["balanced", "sophisticated", "refined", "layered", "subtle"],
     tip: "Describes fine, often overlooked distinctions within a complex issue."
   },
   {
