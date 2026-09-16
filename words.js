@@ -460,7 +460,7 @@ const WORD_BANK = [
     word: "transport",
     context: "Investment in public **transport** has been central to reducing urban congestion.",
     difficulty: "easy",
-    synonyms: ["transit", "conveyance", "carriage", "mobility"],
+    synonyms: ["transit", "commute", "conveyance", "carriage", "mobility"],
     tip: "As a noun, 'transport' (UK) and 'transportation' (US) are largely interchangeable."
   },
   {
