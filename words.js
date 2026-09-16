@@ -592,7 +592,7 @@ const WORD_BANK = [
   {
     word: "cult",
     context: "The group's absolute obedience to its leader led outsiders to label it a **cult**.",
-    difficulty: "medium",
+    difficulty: "hard",
     synonyms: ["sect", "faction", "fringe movement", "cabal"],
     tip: "Carries a negative connotation of extreme, often manipulative devotion."
   },
