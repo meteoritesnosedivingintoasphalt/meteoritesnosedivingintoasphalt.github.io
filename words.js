@@ -738,1710 +738,1843 @@ const WORD_BANK = [
   },
   {
     word: "abandon",
-    context: "Many refugees are forced to **abandon** their homes with little warning.",
+    context: "Faced with mounting losses, the company decided to **abandon** the project altogether.",
     difficulty: "easy",
-    synonyms: ["desert", "forsake", "give up", "leave behind", "relinquish"],
-    tip: "As a verb it means to leave completely; 'to abandon a plan' also works figuratively."
+    synonyms: ["give up", "forsake", "desert", "relinquish", "discontinue"],
+    tip: "Can describe leaving a place, a plan, or a person — always implies a deliberate, often permanent, departure."
   },
   {
     word: "accompanied",
     context: "The proposal was **accompanied** by a detailed cost-benefit analysis.",
     difficulty: "easy",
-    synonyms: ["escorted", "supplemented", "attended", "went with", "coupled with"],
+    synonyms: ["escorted", "coupled with", "attended by", "joined by", "supplemented by"],
     tip: "Often used passively — 'X was accompanied by Y' — to show two things occurring together."
   },
   {
     word: "accumulation",
-    context: "The **accumulation** of plastic waste in the oceans poses a long-term ecological threat.",
+    context: "Years of **accumulation** of plastic waste have turned parts of the ocean into floating landfills.",
     difficulty: "medium",
     synonyms: ["build-up", "amassing", "gathering", "stockpile", "aggregation"],
-    tip: "A noun describing a gradual increase over time, often of something undesirable."
+    tip: "The noun form of 'accumulate' — describes the gradual gathering of something over time."
   },
   {
     word: "ambiguous",
-    context: "The wording of the treaty was deliberately **ambiguous** to satisfy both parties.",
+    context: "The wording of the contract was **ambiguous**, allowing both parties to interpret it differently.",
     difficulty: "medium",
     synonyms: ["unclear", "vague", "equivocal", "open to interpretation", "imprecise"],
-    tip: "Implies more than one possible meaning, not simply a lack of detail."
+    tip: "Describes language or a situation that can reasonably be understood in more than one way."
   },
   {
     word: "appendix",
-    context: "Supporting data was placed in the **appendix** rather than the main body of the report.",
+    context: "Detailed statistical tables were placed in the **appendix** rather than the main body of the report.",
     difficulty: "easy",
-    synonyms: ["supplement", "addendum", "annex", "attachment"],
-    tip: "A section at the end of a document containing supplementary material."
+    synonyms: ["addendum", "supplement", "annex", "attachment"],
+    tip: "A section at the end of a document containing supporting material, not central argument."
   },
   {
     word: "appreciation",
-    context: "A growing **appreciation** of cultural diversity has shaped modern curricula.",
+    context: "Studying abroad gave her a deeper **appreciation** of cultural diversity.",
     difficulty: "easy",
-    synonyms: ["recognition", "understanding", "regard", "awareness", "esteem"],
-    tip: "Can mean either gratitude or an increase in value — context determines which."
+    synonyms: ["understanding", "recognition", "awareness", "gratitude", "regard"],
+    tip: "Can mean gratitude, or — as here — a deeper understanding and valuing of something."
   },
   {
     word: "arbitrary",
-    context: "Critics claimed the sentencing guidelines were applied in an **arbitrary** manner.",
-    difficulty: "medium",
-    synonyms: ["random", "capricious", "unsystematic", "subjective", "unreasoned"],
-    tip: "Suggests a decision made without a clear rule or justification, not simply 'random'."
+    context: "Critics argued that the fines were **arbitrary**, applied without any consistent standard.",
+    difficulty: "hard",
+    synonyms: ["random", "capricious", "unsystematic", "subjective", "unjustified"],
+    tip: "Implies a decision made without reason or fair system — often a criticism in essays about policy fairness."
   },
   {
     word: "automatically",
-    context: "Sensors **automatically** adjust the lighting according to natural daylight levels.",
+    context: "Under the new system, refunds are processed **automatically** without requiring a customer request.",
     difficulty: "easy",
-    synonyms: ["mechanically", "involuntarily", "spontaneously", "without prompting"],
-    tip: "Describes an action performed without direct human control."
+    synonyms: ["mechanically", "without prompting", "spontaneously", "instantly"],
+    tip: "Describes something happening by itself, without deliberate human action each time."
   },
   {
     word: "bias",
-    context: "Algorithmic **bias** in hiring software has drawn scrutiny from regulators.",
+    context: "Algorithms trained on skewed data can inherit and amplify human **bias**.",
     difficulty: "medium",
-    synonyms: ["prejudice", "partiality", "slant", "skew", "favouritism"],
-    tip: "Can be a noun (a bias) or a verb (to bias a result) — both are common in GP essays."
+    synonyms: ["prejudice", "partiality", "slant", "favouritism", "one-sidedness"],
+    tip: "Can be a noun (a bias) or verb (to bias) — central to essays on media and AI fairness."
   },
   {
     word: "chart",
-    context: "The report used a **chart** to illustrate the decline in manufacturing output.",
+    context: "The report includes a **chart** comparing energy consumption across ten countries.",
     difficulty: "easy",
     synonyms: ["graph", "diagram", "table", "plot"],
-    tip: "Refers to a visual representation of data, distinct from 'chart' meaning a map."
+    tip: "A visual way of presenting data — distinguish from 'chart' as a verb meaning 'to track' (e.g. 'chart progress')."
   },
   {
     word: "clarity",
-    context: "The judge praised the **clarity** of the closing argument.",
+    context: "Policymakers called for greater **clarity** in the government's messaging on vaccination.",
     difficulty: "easy",
-    synonyms: ["lucidity", "precision", "coherence", "transparency", "simplicity"],
-    tip: "Describes how easy something is to understand, especially writing or speech."
+    synonyms: ["clearness", "transparency", "lucidity", "precision", "coherence"],
+    tip: "The noun form of 'clear' — often paired with 'lack of' when criticising communication."
   },
   {
     word: "conformity",
-    context: "Strict dress codes are sometimes criticised for enforcing unnecessary **conformity**.",
+    context: "Schools have been criticised for prioritising **conformity** over individual creativity.",
     difficulty: "medium",
-    synonyms: ["compliance", "adherence", "obedience", "uniformity"],
-    tip: "Usually implies following rules or norms, sometimes at the expense of individuality."
+    synonyms: ["compliance", "obedience", "adherence", "uniformity", "conventionality"],
+    tip: "Usually implies matching a group norm, sometimes at the expense of independent thought."
   },
   {
     word: "commodity",
-    context: "Water is increasingly treated as a tradeable **commodity** rather than a public good.",
+    context: "Water is increasingly treated as a **commodity** to be bought and sold rather than a basic right.",
     difficulty: "medium",
-    synonyms: ["product", "goods", "resource", "merchandise"],
-    tip: "A raw material or primary product that can be bought and sold."
+    synonyms: ["product", "goods", "resource", "asset", "merchandise"],
+    tip: "An economic term for something that can be traded — often used critically when applied to essentials like water or healthcare."
   },
   {
     word: "complement",
-    context: "Renewable subsidies are designed to **complement**, not replace, existing energy policy.",
+    context: "Renewable energy sources can **complement** rather than replace traditional power grids.",
     difficulty: "medium",
-    synonyms: ["supplement", "enhance", "round out", "add to"],
-    tip: "Do not confuse with 'compliment' (praise) — this means to complete or improve."
+    synonyms: ["supplement", "enhance", "complete", "round out", "add to"],
+    tip: "Don't confuse with 'compliment' (praise) — 'complement' means to make something more complete."
   },
   {
     word: "contemporary",
-    context: "**Contemporary** debates on free speech often echo arguments from decades earlier.",
+    context: "**Contemporary** art often challenges traditional notions of beauty and form.",
     difficulty: "easy",
-    synonyms: ["modern", "current", "present-day", "up-to-date"],
-    tip: "Can also mean 'belonging to the same period as' something else, not just 'modern'."
+    synonyms: ["modern", "current", "present-day", "up-to-date", "recent"],
+    tip: "Can also mean 'existing at the same time as' something else, not just 'modern'."
   },
   {
     word: "contradiction",
-    context: "There is an evident **contradiction** between the government's climate rhetoric and its energy policy.",
+    context: "There is an apparent **contradiction** between the government's climate pledges and its continued approval of new coal mines.",
     difficulty: "medium",
-    synonyms: ["inconsistency", "conflict", "discrepancy", "paradox"],
-    tip: "Two statements or facts that cannot both be true at once."
+    synonyms: ["inconsistency", "conflict", "discrepancy", "paradox", "incongruity"],
+    tip: "Useful for pointing out when a policy or argument doesn't align with itself."
   },
   {
     word: "crucial",
-    context: "Access to clean water is **crucial** for public health in developing regions.",
+    context: "Access to clean water is **crucial** to reducing child mortality in developing countries.",
     difficulty: "easy",
-    synonyms: ["essential", "critical", "vital", "pivotal", "indispensable"],
-    tip: "A strong intensifier for 'important' — reserve it for genuinely decisive factors."
+    synonyms: ["essential", "vital", "critical", "pivotal", "indispensable"],
+    tip: "A strong, common way to emphasise importance in an argumentative essay."
   },
   {
     word: "currency",
-    context: "The idea of a universal basic income has gained **currency** among policymakers.",
+    context: "Social media has given **currency** to conspiracy theories that would once have gone unnoticed.",
     difficulty: "medium",
-    synonyms: ["acceptance", "prevalence", "traction", "circulation"],
-    tip: "Besides money, 'currency' can mean the general acceptance of an idea."
+    synonyms: ["acceptance", "circulation", "credibility", "traction", "prevalence"],
+    tip: "Beyond money, 'currency' can mean the degree to which an idea is accepted or widespread."
   },
   {
     word: "denote",
-    context: "In economics, the term 'inflation' is used to **denote** a general rise in prices.",
-    difficulty: "medium",
-    synonyms: ["signify", "indicate", "represent", "designate", "mean"],
-    tip: "A formal verb for 'to mean' or 'to stand for', common in academic definitions."
+    context: "In economics, a rising GDP does not necessarily **denote** improved living standards for all citizens.",
+    difficulty: "hard",
+    synonyms: ["signify", "indicate", "represent", "signal", "mean"],
+    tip: "Formal word for 'to be a sign of' — common in analytical or academic writing."
   },
   {
     word: "detected",
-    context: "Traces of the chemical were **detected** in the local water supply.",
+    context: "Traces of the chemical were **detected** in water supplies across the region.",
     difficulty: "easy",
     synonyms: ["identified", "discovered", "found", "spotted", "uncovered"],
-    tip: "Implies careful observation or testing revealed something not obvious."
+    tip: "Implies careful observation or testing revealed something not obvious at first."
   },
   {
     word: "deviation",
-    context: "Any **deviation** from the standard procedure must be reported to a supervisor.",
-    difficulty: "medium",
-    synonyms: ["divergence", "departure", "variation", "anomaly"],
-    tip: "A movement away from an established course, standard, or norm."
+    context: "Any **deviation** from the standard safety protocol must be reported immediately.",
+    difficulty: "hard",
+    synonyms: ["departure", "divergence", "variation", "digression", "anomaly"],
+    tip: "A move away from what is expected, normal, or standard."
   },
   {
     word: "displacement",
-    context: "War has caused the mass **displacement** of civilian populations across the region.",
-    difficulty: "medium",
-    synonyms: ["dislocation", "relocation", "uprooting", "forced movement"],
-    tip: "Often used for people forced to leave their homes, e.g. 'displaced persons'."
+    context: "Rising sea levels have caused the **displacement** of entire coastal communities.",
+    difficulty: "hard",
+    synonyms: ["relocation", "dislocation", "eviction", "uprooting", "forced movement"],
+    tip: "Frequently used in discussions of refugees, climate change, and war."
   },
   {
     word: "dramatic",
-    context: "There has been a **dramatic** rise in youth unemployment since the recession.",
+    context: "The city saw a **dramatic** rise in housing prices over just two years.",
     difficulty: "easy",
     synonyms: ["striking", "significant", "sharp", "marked", "sudden"],
-    tip: "Emphasises the scale or suddenness of a change, not necessarily anything theatrical."
+    tip: "In data-driven essays, 'dramatic' emphasises the size or speed of a change."
   },
   {
     word: "eventually",
-    context: "**Eventually**, public pressure forced the company to reverse its decision.",
+    context: "The negotiations dragged on for months but **eventually** produced a compromise.",
     difficulty: "easy",
-    synonyms: ["ultimately", "in the end", "finally", "after some time"],
-    tip: "A useful discourse marker to signal an outcome after a process or delay."
+    synonyms: ["ultimately", "in the end", "finally", "at length"],
+    tip: "Signals an outcome after delay — useful for sequencing an argument over time."
   },
   {
     word: "exhibit",
-    context: "The patient began to **exhibit** early signs of the illness within days.",
+    context: "Patients who **exhibit** early symptoms are prioritised for testing.",
     difficulty: "medium",
-    synonyms: ["display", "show", "demonstrate", "manifest"],
-    tip: "In GP essays it usually means 'to display a quality or symptom', not a museum show."
+    synonyms: ["display", "show", "demonstrate", "manifest", "reveal"],
+    tip: "Formal alternative to 'show' — also used as a noun for a museum display."
   },
   {
     word: "exploitation",
-    context: "The **exploitation** of migrant labour remains a persistent human rights concern.",
+    context: "Labour rights groups have condemned the **exploitation** of migrant workers in the construction industry.",
     difficulty: "medium",
-    synonyms: ["abuse", "misuse", "manipulation", "taking advantage"],
-    tip: "Carries a negative connotation of unfairly using someone or something for gain."
+    synonyms: ["mistreatment", "abuse", "manipulation", "misuse"],
+    tip: "Strongly negative — implies unfairly taking advantage of someone or something for gain."
   },
   {
     word: "fluctuations",
-    context: "**Fluctuations** in oil prices have direct consequences for global inflation.",
+    context: "Currency **fluctuations** can significantly affect the profitability of international trade.",
     difficulty: "medium",
-    synonyms: ["variations", "swings", "oscillations", "changes", "volatility"],
-    tip: "Describes irregular rises and falls, often used with 'currency' or 'price'."
+    synonyms: ["variations", "swings", "changes", "oscillations", "instability"],
+    tip: "The noun form of 'fluctuate' — typically describes repeated rises and falls, often in prices or markets."
   },
   {
     word: "guidelines",
-    context: "The ministry issued new **guidelines** on data protection for private firms.",
+    context: "The health ministry issued new **guidelines** on acceptable sugar content in children's food.",
     difficulty: "easy",
-    synonyms: ["recommendations", "rules", "protocols", "standards", "instructions"],
-    tip: "Softer than 'rules' or 'laws' — implies advisory rather than strictly binding standards."
+    synonyms: ["rules", "regulations", "standards", "recommendations", "protocols"],
+    tip: "Softer than 'rules' or 'laws' — implies recommended, though not always mandatory, practice."
   },
   {
     word: "highlighted",
-    context: "The report **highlighted** significant gaps in rural healthcare provision.",
+    context: "The report **highlighted** the growing gap between urban and rural healthcare access.",
     difficulty: "easy",
-    synonyms: ["emphasised", "underscored", "drew attention to", "spotlighted"],
-    tip: "A common way to introduce a key finding without directly quoting a source."
+    synonyms: ["emphasised", "underscored", "spotlighted", "drew attention to", "stressed"],
+    tip: "Useful verb for introducing evidence that supports your essay's main point."
   },
   {
     word: "induced",
-    context: "Economic hardship has **induced** many young people to delay starting families.",
+    context: "The recession was largely **induced** by a sudden collapse in consumer confidence.",
     difficulty: "hard",
-    synonyms: ["caused", "prompted", "triggered", "brought about", "provoked"],
-    tip: "Formal verb for causing a state or reaction, often used in medical or scientific writing."
+    synonyms: ["caused", "triggered", "brought about", "provoked", "generated"],
+    tip: "Formal word for 'caused' — often used in scientific or economic writing about cause and effect."
   },
   {
     word: "inevitably",
-    context: "Automating routine tasks will **inevitably** displace some low-skilled workers.",
+    context: "As populations age, healthcare costs will **inevitably** rise.",
     difficulty: "medium",
-    synonyms: ["unavoidably", "necessarily", "certainly", "as a matter of course"],
-    tip: "Adverb form of 'inevitable' — signals an outcome that cannot realistically be prevented."
+    synonyms: ["unavoidably", "certainly", "necessarily", "inescapably"],
+    tip: "Signals a conclusion the writer sees as unavoidable, given the premises stated."
   },
   {
     word: "infrastructure",
-    context: "Investment in digital **infrastructure** is essential for a competitive economy.",
-    difficulty: "medium",
-    synonyms: ["framework", "facilities", "foundation", "systems", "network"],
-    tip: "Refers to the basic physical or organisational structures needed to run a society."
+    context: "Investment in digital **infrastructure** has become essential for economic competitiveness.",
+    difficulty: "easy",
+    synonyms: ["framework", "facilities", "foundation systems", "amenities", "network"],
+    tip: "Covers the physical and organisational structures a society needs to function — roads, power grids, networks."
   },
   {
     word: "inspection",
-    context: "Regular **inspection** of factory conditions has reduced workplace accidents.",
+    context: "Routine **inspection** of factory conditions helps prevent workplace accidents.",
     difficulty: "easy",
-    synonyms: ["examination", "review", "audit", "check", "survey"],
-    tip: "Implies a formal, often scheduled, check for compliance or safety."
+    synonyms: ["examination", "review", "check", "audit", "survey"],
+    tip: "Implies a formal, often official, checking process."
   },
   {
     word: "intensity",
     context: "The **intensity** of the debate reflected how divisive the issue had become.",
     difficulty: "medium",
-    synonyms: ["strength", "severity", "force", "vigour", "magnitude"],
-    tip: "Describes the degree of strength or force of an emotion, effort, or phenomenon."
+    synonyms: ["severity", "strength", "force", "vigour", "fervour"],
+    tip: "Describes the degree or strength of something — emotion, effort, or a physical force."
   },
   {
     word: "manipulation",
-    context: "The scandal raised concerns over the **manipulation** of financial data by executives.",
+    context: "The scandal exposed the **manipulation** of data to support a predetermined conclusion.",
     difficulty: "medium",
-    synonyms: ["distortion", "falsification", "tampering", "exploitation", "rigging"],
-    tip: "Almost always negative when applied to data, markets, or people."
+    synonyms: ["distortion", "falsification", "tampering", "engineering", "rigging"],
+    tip: "Almost always implies dishonest or unfair influence over facts, people, or outcomes."
   },
   {
     word: "minimised",
-    context: "Risk can be **minimised**, though never entirely eliminated, through careful planning.",
-    difficulty: "medium",
-    synonyms: ["reduced", "lessened", "diminished", "curtailed", "played down"],
-    tip: "Note the British spelling with 's' — contrasts with 'eliminated', which implies total removal."
+    context: "Risks to public health were **minimised** through early and widespread vaccination campaigns.",
+    difficulty: "easy",
+    synonyms: ["reduced", "lessened", "diminished", "curbed", "played down"],
+    tip: "Note the double meaning: to genuinely reduce something, or — more critically — to downplay its importance."
   },
   {
     word: "nuclear",
-    context: "Several nations are reconsidering **nuclear** power as a low-carbon energy source.",
+    context: "Several countries are reconsidering **nuclear** energy as part of their strategy to cut carbon emissions.",
     difficulty: "easy",
     synonyms: ["atomic"],
-    tip: "Mostly used with 'power', 'energy', 'weapon', or 'family' — meaning varies with the noun it modifies."
+    tip: "A technical term with limited direct synonyms — usage largely depends on context (energy, weapons, family)."
   },
   {
     word: "offset",
-    context: "Companies can **offset** their carbon emissions by investing in reforestation projects.",
+    context: "Companies are encouraged to **offset** their carbon emissions by investing in reforestation projects.",
     difficulty: "medium",
-    synonyms: ["counterbalance", "compensate for", "neutralise", "cancel out"],
-    tip: "Common in environmental writing — 'carbon offset' is a key GP collocation."
+    synonyms: ["counterbalance", "compensate for", "cancel out", "neutralise", "balance"],
+    tip: "Implies balancing a negative effect with an equivalent positive one, not eliminating it directly."
   },
   {
     word: "paragraph",
-    context: "Each **paragraph** should focus on a single supporting argument.",
+    context: "The opening **paragraph** should clearly state the essay's central argument.",
     difficulty: "easy",
-    synonyms: ["section", "passage", "segment"],
-    tip: "A structural unit of writing — useful vocabulary when discussing essay technique itself."
+    synonyms: ["passage", "section", "segment"],
+    tip: "A structural term — limited synonyms, since it refers specifically to a unit of writing."
   },
   {
     word: "plus",
-    context: "The policy offers tax relief, **plus** additional grants for small businesses.",
+    context: "The new policy offers, as a **plus**, reduced administrative costs for small businesses.",
     difficulty: "easy",
-    synonyms: ["in addition to", "as well as", "along with", "furthermore"],
-    tip: "A more informal connector than 'furthermore' or 'moreover' — used sparingly in formal essays."
+    synonyms: ["advantage", "benefit", "bonus", "upside"],
+    tip: "As a noun, 'a plus' means an advantage — distinct from its use as a conjunction ('salary plus benefits')."
   },
   {
     word: "practitioners",
-    context: "Medical **practitioners** have called for clearer guidelines on assisted dying.",
+    context: "Medical **practitioners** have called for stricter regulation of unproven wellness supplements.",
     difficulty: "medium",
-    synonyms: ["professionals", "specialists", "practicing experts"],
-    tip: "Refers to people actively working in a profession, especially medicine or law."
+    synonyms: ["professionals", "specialists", "experts in the field"],
+    tip: "Refers to people who actively work in a profession, especially medicine or law."
   },
   {
     word: "predominantly",
-    context: "The workforce in this sector is **predominantly** female.",
-    difficulty: "medium",
-    synonyms: ["mainly", "chiefly", "primarily", "largely", "for the most part"],
-    tip: "A precise way to describe a majority without claiming totality."
+    context: "The workforce in the tech sector remains **predominantly** male in senior roles.",
+    difficulty: "hard",
+    synonyms: ["mainly", "primarily", "chiefly", "largely", "mostly"],
+    tip: "Signals what applies to the majority, while acknowledging some exceptions exist."
   },
   {
     word: "prospect",
-    context: "The **prospect** of automation replacing jobs worries many workers.",
+    context: "The **prospect** of automation replacing millions of jobs has alarmed labour unions.",
     difficulty: "medium",
-    synonyms: ["possibility", "likelihood", "outlook", "expectation"],
-    tip: "Refers to something anticipated in the future, whether promising or threatening."
+    synonyms: ["possibility", "likelihood", "outlook", "chance", "expectation"],
+    tip: "Often used for a future possibility that is anticipated, whether hoped for or feared."
   },
   {
     word: "radical",
-    context: "The reforms represented a **radical** departure from previous policy.",
+    context: "The government proposed **radical** reforms to the healthcare funding model.",
     difficulty: "medium",
-    synonyms: ["fundamental", "drastic", "extreme", "revolutionary", "sweeping"],
-    tip: "Describes change that is thorough and far-reaching, not merely 'different'."
+    synonyms: ["drastic", "fundamental", "extreme", "sweeping", "far-reaching"],
+    tip: "Describes change that goes to the root of a system, not a minor adjustment."
   },
   {
     word: "random",
-    context: "The study used a **random** sample to avoid selection bias.",
+    context: "Participants were selected at **random** to ensure the survey results were unbiased.",
     difficulty: "easy",
-    synonyms: ["arbitrary", "unsystematic", "haphazard", "unplanned"],
-    tip: "In research contexts, means chosen without predictable pattern to ensure fairness."
+    synonyms: ["arbitrary", "unsystematic", "haphazard", "chance-based"],
+    tip: "In research contexts, 'random' selection is a deliberate method to avoid bias — not the same as 'careless'."
   },
   {
     word: "reinforced",
-    context: "Public scepticism was **reinforced** by repeated instances of corporate misconduct.",
+    context: "Media coverage of the incident **reinforced** existing public distrust of the institution.",
     difficulty: "medium",
-    synonyms: ["strengthened", "bolstered", "consolidated", "confirmed"],
-    tip: "Suggests an existing belief or structure being made stronger, not created anew."
+    synonyms: ["strengthened", "bolstered", "confirmed", "solidified", "consolidated"],
+    tip: "Suggests making an existing belief, structure, or feeling stronger, not creating a new one."
   },
   {
     word: "restore",
-    context: "Efforts are underway to **restore** public trust in the electoral process.",
+    context: "Conservation efforts aim to **restore** the wetland to its original ecological state.",
     difficulty: "easy",
-    synonyms: ["reinstate", "revive", "re-establish", "rebuild"],
-    tip: "Implies returning something to a former, usually better, state."
+    synonyms: ["reinstate", "renew", "revive", "repair", "rehabilitate"],
+    tip: "Implies bringing something back to a previous, often better, condition."
   },
   {
     word: "revision",
-    context: "The **revision** of the curriculum reflects changing workplace demands.",
-    difficulty: "medium",
-    synonyms: ["amendment", "update", "modification", "overhaul"],
-    tip: "Can refer to changing a document or, informally, to studying for an exam."
+    context: "The textbook underwent extensive **revision** to reflect recent scientific discoveries.",
+    difficulty: "easy",
+    synonyms: ["amendment", "update", "correction", "rewrite", "modification"],
+    tip: "Also commonly used in British English to mean 'studying for an exam' — context determines meaning."
   },
   {
     word: "schedule",
-    context: "Delays in the construction **schedule** have increased project costs significantly.",
+    context: "Construction delays forced the developer to revise the project **schedule**.",
     difficulty: "easy",
-    synonyms: ["timetable", "plan", "agenda", "programme"],
-    tip: "Refers to a planned sequence of events or tasks with set times."
+    synonyms: ["timetable", "timeline", "programme", "plan"],
+    tip: "Can be a noun (a plan of timing) or verb (to schedule an event)."
   },
   {
     word: "tension",
-    context: "Rising **tension** between neighbouring states threatens regional stability.",
+    context: "Rising **tension** between neighbouring states threatened to escalate into open conflict.",
     difficulty: "medium",
-    synonyms: ["strain", "friction", "hostility", "unease", "conflict"],
-    tip: "Can describe interpersonal, political, or even physical strain, depending on context."
+    synonyms: ["strain", "friction", "hostility", "unease", "discord"],
+    tip: "Can describe relations between people or states, or a stylistic device in literature ('narrative tension')."
   },
   {
     word: "termination",
-    context: "The contract allows for **termination** without cause after a notice period.",
-    difficulty: "medium",
-    synonyms: ["ending", "cessation", "cancellation", "conclusion"],
-    tip: "A formal word for ending something, common in legal and employment contexts."
+    context: "The employee challenged the abrupt **termination** of her contract.",
+    difficulty: "hard",
+    synonyms: ["ending", "cessation", "dismissal", "cancellation", "conclusion"],
+    tip: "A formal word for 'ending' — common in legal and employment contexts."
   },
   {
     word: "theme",
-    context: "Inequality is a recurring **theme** in the author's later novels.",
+    context: "Inequality emerges as a recurring **theme** throughout the author's later novels.",
     difficulty: "easy",
-    synonyms: ["motif", "subject", "topic", "thread"],
-    tip: "An underlying idea that runs through a piece of writing, art, or discussion."
+    synonyms: ["topic", "motif", "subject", "thread", "idea"],
+    tip: "A central idea that recurs across a text, discussion, or body of work."
   },
   {
     word: "thereby",
-    context: "The policy removed import tariffs, **thereby** lowering consumer prices.",
+    context: "The reform simplified the tax code, **thereby** reducing compliance costs for small firms.",
     difficulty: "hard",
-    synonyms: ["as a result", "consequently", "in this way", "thus"],
-    tip: "A formal connector linking an action to its direct consequence."
+    synonyms: ["as a result", "consequently", "in this way", "by this means"],
+    tip: "A formal connective linking an action to its consequence — useful for essay cohesion."
   },
   {
     word: "uniform",
-    context: "Critics argue that standardised testing imposes a **uniform** standard on diverse learners.",
+    context: "Critics argue that standardised testing assumes a **uniform** level of preparation among all students.",
     difficulty: "medium",
-    synonyms: ["consistent", "unvarying", "identical", "homogeneous"],
-    tip: "Describes something the same throughout, without variation."
+    synonyms: ["consistent", "unvarying", "identical", "standard", "homogeneous"],
+    tip: "As an adjective, means 'the same throughout' — distinct from its everyday meaning as a set of clothing."
   },
   {
     word: "vehicle",
-    context: "Social media has become a powerful **vehicle** for political mobilisation.",
-    difficulty: "medium",
-    synonyms: ["medium", "channel", "means", "conduit"],
-    tip: "Figuratively means a means of expressing or achieving something, beyond literal transport."
+    context: "Public broadcasting can serve as a **vehicle** for promoting civic education.",
+    difficulty: "easy",
+    synonyms: ["means", "medium", "channel", "instrument", "conduit"],
+    tip: "Beyond literal transport, 'vehicle' figuratively means a means of achieving or conveying something."
   },
   {
     word: "via",
-    context: "Applications must be submitted **via** the official online portal.",
+    context: "Applications must be submitted **via** the online portal by the end of the month.",
     difficulty: "easy",
     synonyms: ["through", "by means of", "by way of"],
-    tip: "A concise preposition for describing a method or route, often used with technology."
+    tip: "A concise, formal way to indicate the method or route by which something happens."
   },
   {
     word: "virtually",
-    context: "The two proposals are **virtually** identical in their economic assumptions.",
+    context: "With most services now available online, bank branches have become **virtually** obsolete in some regions.",
     difficulty: "medium",
-    synonyms: ["almost", "practically", "nearly", "essentially"],
-    tip: "Means 'almost entirely', distinct from its tech-related sense of 'online' or 'simulated'."
+    synonyms: ["almost", "nearly", "practically", "essentially"],
+    tip: "Means 'almost entirely' — don't confuse with its digital-technology sense (as in 'virtual reality')."
   },
   {
     word: "widespread",
-    context: "**Widespread** concern over data privacy has prompted new legislation.",
+    context: "**Widespread** access to smartphones has transformed how information spreads during emergencies.",
     difficulty: "easy",
-    synonyms: ["extensive", "prevalent", "far-reaching", "universal", "general"],
-    tip: "Describes something occurring or believed across a large area or population."
+    synonyms: ["pervasive", "extensive", "far-reaching", "universal", "common"],
+    tip: "Describes something occurring or existing across a broad area or population."
   },
   {
     word: "visual",
-    context: "The campaign relied heavily on **visual** imagery to convey its message.",
+    context: "The campaign relied heavily on **visual** imagery to convey the scale of the crisis.",
     difficulty: "easy",
-    synonyms: ["pictorial", "graphic", "image-based"],
-    tip: "Relating to sight — often paired with 'aid', 'cue', or 'representation'."
+    synonyms: ["pictorial", "graphic", "visible"],
+    tip: "Relates to sight — pairs well with nouns like 'aid', 'evidence', or 'representation'."
   },
   {
     word: "adaptation",
-    context: "The novel's film **adaptation** altered several key plot points.",
-    difficulty: "medium",
-    synonyms: ["adjustment", "modification", "reworking", "conversion"],
-    tip: "Can mean adjusting to new conditions, or reworking a text into another medium."
+    context: "The novel's screen **adaptation** took significant liberties with the original plot.",
+    difficulty: "easy",
+    synonyms: ["adjustment", "modification", "version", "reworking"],
+    tip: "Can mean adjusting to new conditions (biological/social) or reworking a creative text into another form."
   },
   {
     word: "adults",
-    context: "Financial literacy programmes are increasingly targeted at young **adults**.",
+    context: "The programme was designed for **adults** returning to education after a long break.",
     difficulty: "easy",
     synonyms: ["grown-ups", "mature individuals"],
-    tip: "Distinguishes those legally or developmentally mature from children or adolescents."
+    tip: "The opposite of 'minors' or 'children' — a neutral, formal term."
   },
   {
     word: "aid",
-    context: "International **aid** has helped rebuild infrastructure after the disaster.",
+    context: "International **aid** has helped rebuild infrastructure destroyed by the earthquake.",
     difficulty: "easy",
-    synonyms: ["assistance", "support", "relief", "help"],
-    tip: "Can be a noun (foreign aid) or verb (to aid recovery)."
+    synonyms: ["assistance", "support", "relief", "help", "backing"],
+    tip: "Also works as a verb ('to aid recovery') — common in essays on development and humanitarian policy."
   },
   {
     word: "channel",
-    context: "Diplomatic **channels** remain open despite the escalating dispute.",
-    difficulty: "medium",
-    synonyms: ["route", "avenue", "conduit", "medium"],
-    tip: "Refers to a means of communication or transmission, literal or figurative."
+    context: "Social media has become the primary **channel** through which young people receive news.",
+    difficulty: "easy",
+    synonyms: ["medium", "outlet", "route", "avenue", "conduit"],
+    tip: "As a verb, 'to channel' means to direct something toward a particular use or outcome."
   },
   {
     word: "chemical",
-    context: "Farmers are being encouraged to reduce **chemical** fertiliser use.",
+    context: "Farmers are being encouraged to reduce their reliance on **chemical** fertilisers.",
     difficulty: "easy",
-    synonyms: ["synthetic", "artificial substance"],
-    tip: "Usually modifies a noun (chemical waste, chemical reaction) in scientific writing."
+    synonyms: ["synthetic", "man-made"],
+    tip: "As an adjective describes substances produced through chemistry; as a noun, refers to those substances themselves."
   },
   {
     word: "classical",
-    context: "**Classical** economic theory assumes markets are largely self-correcting.",
+    context: "**Classical** economic theory assumes that markets naturally move toward equilibrium.",
     difficulty: "medium",
-    synonyms: ["traditional", "conventional", "established", "orthodox"],
-    tip: "In academic contexts, refers to foundational or historically established theory, not just music or art."
+    synonyms: ["traditional", "conventional", "orthodox", "established"],
+    tip: "In academic writing, often signals an older or foundational school of thought, later challenged by newer theories."
   },
   {
     word: "comprehensive",
-    context: "The government introduced a **comprehensive** review of welfare spending.",
+    context: "The report offers a **comprehensive** overview of global migration trends over the last century.",
     difficulty: "medium",
-    synonyms: ["thorough", "extensive", "exhaustive", "all-encompassing"],
-    tip: "Suggests something covers all relevant aspects, leaving little out."
+    synonyms: ["thorough", "extensive", "all-encompassing", "exhaustive", "complete"],
+    tip: "Suggests nothing important has been left out — a strong word for describing thorough research."
   },
   {
     word: "comprise",
-    context: "The committee **comprises** representatives from twelve member states.",
+    context: "Women **comprise** less than a third of senior leadership positions in most industries.",
     difficulty: "hard",
-    synonyms: ["consist of", "be made up of", "include", "encompass"],
-    tip: "Note: 'comprise' takes the whole as its subject — avoid 'is comprised of' in formal writing."
+    synonyms: ["make up", "constitute", "consist of", "form"],
+    tip: "Note: 'X comprises Y' (whole comprises parts), not 'X is comprised of Y' — though the latter is common in informal use."
   },
   {
     word: "confirmed",
     context: "Laboratory tests **confirmed** the presence of the contaminant in the water supply.",
     difficulty: "easy",
     synonyms: ["verified", "validated", "corroborated", "substantiated"],
-    tip: "Implies evidence has removed prior doubt about a claim."
+    tip: "Implies evidence has removed earlier doubt about a claim."
   },
   {
     word: "contrary",
-    context: "**Contrary** to popular belief, most refugees do not wish to remain permanently.",
+    context: "**Contrary** to popular belief, most refugees do not wish to permanently resettle abroad.",
     difficulty: "medium",
-    synonyms: ["opposite", "conflicting", "at odds with"],
-    tip: "Often used in the phrase 'contrary to', introducing a correction of a common assumption."
+    synonyms: ["opposite", "conflicting", "opposed", "contradictory"],
+    tip: "The phrase 'contrary to' is a strong essay opener for challenging a common assumption."
   },
   {
     word: "converted",
-    context: "The old factory was **converted** into affordable housing units.",
+    context: "The old textile mill was **converted** into affordable housing units.",
     difficulty: "easy",
-    synonyms: ["transformed", "changed", "adapted", "repurposed"],
-    tip: "Implies a change of form, function, or purpose."
+    synonyms: ["transformed", "changed", "adapted", "repurposed", "modified"],
+    tip: "Implies a change in form or function while some underlying structure remains."
   },
   {
     word: "couple",
-    context: "A **couple** of key reforms could substantially improve voter turnout.",
+    context: "A **couple** of policy adjustments could substantially reduce the deficit.",
     difficulty: "easy",
-    synonyms: ["pair", "few", "handful"],
-    tip: "Informally means 'a small number of', not strictly two, in casual register."
+    synonyms: ["a few", "a small number of", "two or three"],
+    tip: "Informally means 'a small, imprecise number' — avoid in very formal writing in favour of 'a few' or 'several'."
   },
   {
     word: "decades",
-    context: "Income inequality has widened steadily over the past three **decades**.",
+    context: "It has taken **decades** of research to develop an effective malaria vaccine.",
     difficulty: "easy",
-    synonyms: ["ten-year periods"],
-    tip: "Useful for describing long-term trends in essays discussing historical change."
+    synonyms: ["tens of years", "a long period"],
+    tip: "Useful for emphasising the scale of time involved in slow-moving change."
   },
   {
     word: "definite",
-    context: "There is, as yet, no **definite** consensus on the causes of the decline.",
+    context: "There is no **definite** answer to whether automation will create more jobs than it destroys.",
     difficulty: "easy",
-    synonyms: ["clear", "certain", "conclusive", "unambiguous"],
-    tip: "Emphasises certainty or precision — pairs naturally with 'answer' or 'conclusion'."
+    synonyms: ["certain", "clear-cut", "conclusive", "fixed", "unambiguous"],
+    tip: "Implies certainty or clarity — often used in the negative to signal genuine uncertainty in an issue."
   },
   {
     word: "deny",
-    context: "The company continues to **deny** any wrongdoing despite mounting evidence.",
+    context: "The company continues to **deny** any responsibility for the environmental damage.",
     difficulty: "easy",
-    synonyms: ["refute", "reject", "dispute", "contest"],
-    tip: "To assert that something is not true, often in the face of accusation."
+    synonyms: ["reject", "refute", "dispute", "repudiate", "disclaim"],
+    tip: "Implies rejecting a claim or accusation as false, whether or not it actually is."
   },
   {
     word: "differentiation",
-    context: "Product **differentiation** allows firms to compete on more than price alone.",
+    context: "Product **differentiation** allows companies to compete on more than just price.",
     difficulty: "hard",
-    synonyms: ["distinction", "distinguishing", "diversification"],
-    tip: "A business and academic term for making something distinct from competitors or categories."
+    synonyms: ["distinction", "diversification", "distinguishing", "separation"],
+    tip: "Common in business and marketing writing to describe how one thing is set apart from similar things."
   },
   {
     word: "disposal",
-    context: "Improper **disposal** of electronic waste harms both health and the environment.",
+    context: "Improper **disposal** of electronic waste poses a growing environmental hazard.",
     difficulty: "medium",
-    synonyms: ["discarding", "removal", "dumping", "getting rid of"],
-    tip: "Refers to the act of throwing away or dealing with unwanted material."
+    synonyms: ["discarding", "removal", "dumping", "elimination"],
+    tip: "The phrase 'at someone's disposal' means available for their use — a different sense worth knowing."
   },
   {
     word: "dynamic",
-    context: "The labour market has become far more **dynamic** due to remote work options.",
+    context: "The relationship between the two nations remains a **dynamic** and ever-shifting one.",
     difficulty: "medium",
-    synonyms: ["fluid", "changeable", "evolving", "active"],
-    tip: "Describes constant change or energy, contrasted with 'static'."
+    synonyms: ["evolving", "fluid", "changeable", "active", "energetic"],
+    tip: "The opposite of 'static' — implies constant change or energy."
   },
   {
     word: "equipment",
-    context: "Hospitals reported shortages of essential medical **equipment** during the crisis.",
+    context: "Hospitals in rural areas often lack the **equipment** needed for advanced diagnostics.",
     difficulty: "easy",
-    synonyms: ["apparatus", "gear", "machinery", "tools"],
-    tip: "An uncountable noun — never 'equipments' in standard English."
+    synonyms: ["apparatus", "machinery", "gear", "tools", "instruments"],
+    tip: "An uncountable noun — never 'equipments' or 'an equipment'."
   },
   {
     word: "extract",
-    context: "Researchers were able to **extract** valuable insights from the survey data.",
+    context: "Researchers were able to **extract** valuable insights from years of anonymised health data.",
     difficulty: "medium",
-    synonyms: ["derive", "draw out", "obtain", "distil"],
-    tip: "Can be literal (extract a resource) or figurative (extract information)."
+    synonyms: ["derive", "draw out", "obtain", "distil", "glean"],
+    tip: "Also a noun ('a book extract') meaning a short excerpt taken from a larger work."
   },
   {
     word: "file",
-    context: "Whistleblowers can **file** a formal complaint without revealing their identity.",
+    context: "Investigative journalists compiled a detailed **file** on the company's offshore accounts.",
     difficulty: "easy",
-    synonyms: ["submit", "lodge", "register", "record"],
-    tip: "As a verb, means to formally submit a document or complaint."
+    synonyms: ["record", "dossier", "document"],
+    tip: "As a verb, 'to file' means to submit officially — 'to file a complaint' or 'to file a report'."
   },
   {
     word: "finite",
-    context: "Fossil fuels are a **finite** resource that cannot sustain long-term growth.",
+    context: "Fossil fuels are a **finite** resource, unlike solar or wind energy.",
     difficulty: "medium",
-    synonyms: ["limited", "restricted", "bounded"],
-    tip: "The opposite of 'infinite' — stresses that a quantity has a definite end."
+    synonyms: ["limited", "restricted", "exhaustible", "bounded"],
+    tip: "The opposite of 'infinite' — central to essays on sustainability and resource management."
   },
   {
     word: "foundation",
-    context: "Strong literacy skills form the **foundation** for later academic success.",
+    context: "Early childhood education lays the **foundation** for lifelong learning.",
     difficulty: "easy",
-    synonyms: ["basis", "groundwork", "cornerstone", "footing"],
-    tip: "Figuratively refers to the base upon which something else is built."
+    synonyms: ["basis", "groundwork", "bedrock", "footing", "cornerstone"],
+    tip: "Figuratively describes the essential base on which something else is built."
   },
   {
     word: "global",
-    context: "Climate change is fundamentally a **global**, not merely national, challenge.",
+    context: "Climate change is fundamentally a **global** problem requiring coordinated international action.",
     difficulty: "easy",
     synonyms: ["worldwide", "international", "universal", "planetary"],
-    tip: "Emphasises scope across the entire world rather than one region."
+    tip: "The opposite of 'local' or 'national' — signals a scale beyond any single country."
   },
   {
     word: "grade",
-    context: "Students are assessed and given a **grade** based on continuous coursework.",
+    context: "Students are assigned a numerical **grade** based on their performance across the semester.",
     difficulty: "easy",
-    synonyms: ["mark", "rating", "score", "rank"],
-    tip: "Also used as a verb — 'to grade an assignment'."
+    synonyms: ["mark", "score", "rating", "rank"],
+    tip: "Can also mean a level of quality ('a high-grade material'), not just an academic score."
   },
   {
     word: "guarantee",
-    context: "No policy can **guarantee** full employment in a volatile global economy.",
-    difficulty: "medium",
-    synonyms: ["assure", "ensure", "promise", "warrant"],
-    tip: "Implies an absolute certainty of outcome, stronger than 'ensure'."
+    context: "No policy can **guarantee** complete protection against future economic downturns.",
+    difficulty: "easy",
+    synonyms: ["assure", "promise", "ensure", "warrant", "pledge"],
+    tip: "Implies a firm, certain commitment — useful for essays questioning whether such certainty is realistic."
   },
   {
     word: "hierarchical",
-    context: "Flatter, less **hierarchical** management structures are increasingly common in tech firms.",
+    context: "Traditional **hierarchical** management structures are increasingly being replaced by flatter, team-based ones.",
     difficulty: "hard",
-    synonyms: ["ranked", "tiered", "stratified", "layered"],
-    tip: "Describes systems organised by levels of authority or status."
+    synonyms: ["ranked", "layered", "graded", "tiered", "stratified"],
+    tip: "Describes a system organised by rank or level of authority."
   },
   {
     word: "identical",
-    context: "The two policies were **identical** in substance, differing only in name.",
+    context: "Even genetically **identical** twins can develop different personalities due to environment.",
     difficulty: "easy",
-    synonyms: ["indistinguishable", "the same", "matching", "equivalent"],
-    tip: "Stronger than 'similar' — implies no meaningful difference at all."
+    synonyms: ["indistinguishable", "the same", "matching", "alike"],
+    tip: "Stronger than 'similar' — implies no difference at all."
   },
   {
     word: "ideology",
-    context: "The reforms were driven more by **ideology** than by empirical evidence.",
-    difficulty: "medium",
-    synonyms: ["doctrine", "belief system", "philosophy", "creed"],
-    tip: "A coherent set of beliefs, especially political or economic, guiding action."
+    context: "Political parties often disagree less on facts than on underlying **ideology**.",
+    difficulty: "hard",
+    synonyms: ["belief system", "doctrine", "philosophy", "worldview", "creed"],
+    tip: "A coherent set of beliefs, especially political or economic, that shapes how someone interprets events."
   },
   {
     word: "inferred",
-    context: "From the trends observed, researchers **inferred** a causal relationship.",
-    difficulty: "hard",
+    context: "From the declining sales figures, analysts **inferred** that consumer confidence was weakening.",
+    difficulty: "medium",
     synonyms: ["deduced", "concluded", "gathered", "surmised"],
-    tip: "Means to reach a conclusion based on evidence rather than direct statement."
+    tip: "The past tense of 'infer' — to draw a conclusion from indirect evidence."
   },
   {
     word: "innovation",
-    context: "Continuous **innovation** is essential for firms to remain competitive.",
+    context: "Continuous **innovation** has allowed the company to stay ahead of its competitors.",
     difficulty: "easy",
-    synonyms: ["invention", "advancement", "breakthrough", "novelty"],
-    tip: "Refers to the introduction of new ideas, methods, or products."
+    synonyms: ["invention", "advancement", "breakthrough", "novelty", "creativity"],
+    tip: "Refers to the introduction of new ideas or methods, not just new products."
   },
   {
     word: "insert",
-    context: "The clause was quietly **inserted** into the final draft of the bill.",
+    context: "Editors may **insert** footnotes to clarify technical terms for a general audience.",
     difficulty: "easy",
-    synonyms: ["add", "introduce", "incorporate", "embed"],
-    tip: "To place something within an existing structure or document."
+    synonyms: ["add", "introduce", "incorporate", "embed", "include"],
+    tip: "Implies placing something within an existing structure, rather than appending it at the end."
   },
   {
     word: "intervention",
-    context: "Early government **intervention** helped stabilise the banking sector.",
+    context: "Early **intervention** significantly improves outcomes for children with developmental delays.",
     difficulty: "medium",
     synonyms: ["involvement", "interference", "action", "mediation"],
-    tip: "Can carry a neutral or negative tone depending on whether the action is welcomed."
+    tip: "Can be positive (medical, educational) or contested (political or military intervention) depending on context."
   },
   {
     word: "isolated",
-    context: "The village remained **isolated** from modern infrastructure for decades.",
+    context: "Remote and **isolated** communities often face greater barriers to accessing healthcare.",
     difficulty: "easy",
-    synonyms: ["cut off", "remote", "secluded", "detached"],
-    tip: "Can describe physical remoteness or, figuratively, a single unconnected event ('an isolated incident')."
+    synonyms: ["remote", "secluded", "cut off", "detached", "solitary"],
+    tip: "Can describe physical remoteness or, figuratively, social or emotional disconnection."
   },
   {
     word: "media",
-    context: "Traditional **media** outlets are struggling to compete with online platforms.",
+    context: "The **media** plays a powerful role in shaping public perception of political events.",
     difficulty: "easy",
     synonyms: ["press", "news outlets", "broadcasters"],
-    tip: "Technically the plural of 'medium', though often used as a collective singular in modern usage."
+    tip: "Technically the plural of 'medium', but commonly treated as singular in modern usage ('the media is...')."
   },
   {
     word: "mode",
-    context: "Remote work has become the preferred **mode** of operation for many firms.",
+    context: "Remote work has become a common **mode** of employment since the pandemic.",
     difficulty: "medium",
-    synonyms: ["method", "manner", "approach", "way"],
-    tip: "A formal word for the way in which something is done or occurs."
+    synonyms: ["method", "manner", "form", "style", "way"],
+    tip: "A formal, versatile word for 'way of doing something' — 'mode of transport', 'mode of communication'."
   },
   {
     word: "phenomenon",
-    context: "Urban migration is a global **phenomenon** driven by economic opportunity.",
+    context: "Viral misinformation is not a new **phenomenon**, but social media has accelerated its spread.",
     difficulty: "hard",
     synonyms: ["occurrence", "event", "development", "happening"],
-    tip: "Note the irregular plural 'phenomena' — a common error in academic writing."
+    tip: "Plural is 'phenomena' — a common error is treating 'phenomena' as singular."
   },
   {
     word: "priority",
-    context: "Reducing carbon emissions has become a top **priority** for many governments.",
+    context: "Governments must decide whether economic growth or environmental protection takes **priority**.",
     difficulty: "easy",
-    synonyms: ["precedence", "primary concern", "focus"],
-    tip: "Refers to what is treated as most important and addressed first."
+    synonyms: ["precedence", "primary concern", "main focus"],
+    tip: "The phrase 'take priority over' is useful for essays weighing competing goals."
   },
   {
     word: "prohibited",
     context: "Smoking in enclosed public spaces is now **prohibited** in most countries.",
-    difficulty: "medium",
-    synonyms: ["banned", "forbidden", "outlawed", "disallowed"],
-    tip: "A formal term for something made illegal or not permitted by rule."
+    difficulty: "easy",
+    synonyms: ["banned", "forbidden", "outlawed", "barred", "disallowed"],
+    tip: "A formal, legal-sounding alternative to 'not allowed'."
   },
   {
     word: "publication",
-    context: "The controversial study prompted debate even before formal **publication**.",
+    context: "The **publication** of the leaked report triggered widespread public outrage.",
     difficulty: "easy",
-    synonyms: ["release", "issuing", "dissemination"],
-    tip: "Refers to the act of making written material publicly available."
+    synonyms: ["release", "issuing", "printing", "dissemination"],
+    tip: "Can refer to the act of publishing, or to the published item itself (a newspaper, a journal)."
   },
   {
     word: "quotation",
-    context: "The essay opens with a **quotation** from a leading economist.",
+    context: "The essay opens with a **quotation** from a leading economist on the dangers of protectionism.",
     difficulty: "easy",
     synonyms: ["citation", "extract", "excerpt"],
-    tip: "A word-for-word repetition of someone else's statement, properly attributed."
+    tip: "Also means a price estimate for a job or service — context determines which sense applies."
   },
   {
     word: "release",
-    context: "The central bank's **release** of new interest rate data affected markets instantly.",
+    context: "The central bank's **release** of new interest rate data caused markets to fluctuate.",
     difficulty: "easy",
-    synonyms: ["announcement", "publication", "disclosure", "issuing"],
-    tip: "Can also function as a verb — 'to release information'."
+    synonyms: ["publication", "issuance", "announcement", "disclosure"],
+    tip: "Works as both noun and verb — 'the release of information' or 'to release information'."
   },
   {
     word: "reverse",
-    context: "Efforts to **reverse** biodiversity loss require coordinated global action.",
-    difficulty: "medium",
-    synonyms: ["undo", "overturn", "invert", "counteract"],
-    tip: "To return something to its opposite or original state."
+    context: "Some economists argue the tax cuts had the **reverse** effect of what was intended.",
+    difficulty: "easy",
+    synonyms: ["opposite", "contrary", "inverse", "converse"],
+    tip: "As a verb, 'to reverse' means to undo or turn back a decision or trend."
   },
   {
     word: "simulation",
-    context: "Flight **simulations** allow pilots to train for emergencies without real risk.",
+    context: "Pilots train extensively using flight **simulations** before ever operating a real aircraft.",
     difficulty: "medium",
-    synonyms: ["model", "reconstruction", "imitation", "replication"],
-    tip: "An artificial representation of a real process, often computer-generated."
+    synonyms: ["model", "reconstruction", "emulation", "reproduction"],
+    tip: "A representation of a real situation used for training or testing, without real-world consequences."
   },
   {
     word: "solely",
-    context: "The decision rests **solely** with the board of directors.",
+    context: "The proposal should not be judged **solely** on its short-term cost.",
     difficulty: "medium",
-    synonyms: ["only", "exclusively", "purely", "entirely"],
-    tip: "Emphasises that no other party or factor is involved."
+    synonyms: ["exclusively", "only", "purely", "entirely"],
+    tip: "Signals that a single factor is being considered to the exclusion of all others — often used to critique a narrow view."
   },
   {
     word: "somewhat",
-    context: "Public opinion has shifted **somewhat** since the policy was first introduced.",
+    context: "Public opinion on the policy has shifted **somewhat** since it was first introduced.",
     difficulty: "easy",
     synonyms: ["slightly", "to some extent", "moderately", "rather"],
-    tip: "A useful hedge for GP essays, avoiding overly absolute claims."
+    tip: "A hedging word useful for qualifying claims without overstating them."
   },
   {
     word: "submitted",
-    context: "The final report was **submitted** to parliament ahead of schedule.",
+    context: "The revised budget was **submitted** to parliament for approval last week.",
     difficulty: "easy",
-    synonyms: ["presented", "handed in", "delivered", "filed"],
-    tip: "Usually used passively to describe formal delivery of documents or work."
+    synonyms: ["presented", "put forward", "handed in", "tendered"],
+    tip: "Formal word for handing something over for consideration or approval."
   },
   {
     word: "successive",
-    context: "The party has won three **successive** elections despite falling approval ratings.",
+    context: "The region has suffered **successive** years of drought, straining its water reserves.",
     difficulty: "medium",
-    synonyms: ["consecutive", "sequential", "back-to-back"],
-    tip: "Describes events occurring one after another without interruption."
+    synonyms: ["consecutive", "sequential", "back-to-back", "uninterrupted"],
+    tip: "Emphasises that events occurred one after another without a break, unlike 'successful'."
   },
   {
     word: "survive",
-    context: "Small businesses have struggled to **survive** amid rising operating costs.",
+    context: "Small businesses struggled to **survive** the prolonged economic downturn.",
     difficulty: "easy",
-    synonyms: ["endure", "persist", "hold on", "outlast"],
-    tip: "To continue existing despite difficulty or threat."
+    synonyms: ["endure", "persist", "withstand", "outlast", "weather"],
+    tip: "Can apply literally (life) or figuratively (an organisation, a tradition, a relationship)."
   },
   {
     word: "thesis",
-    context: "The author's central **thesis** is that inequality undermines democratic stability.",
+    context: "The author's central **thesis** is that inequality, not poverty, drives social unrest.",
     difficulty: "hard",
-    synonyms: ["argument", "proposition", "claim", "premise"],
-    tip: "The main claim or argument put forward in an essay, book, or academic work."
+    synonyms: ["argument", "proposition", "claim", "central idea"],
+    tip: "In academic writing, refers to the main argument a piece of writing seeks to prove."
   },
   {
     word: "topic",
-    context: "Climate migration is an increasingly pressing **topic** in policy discussions.",
+    context: "Immigration remains one of the most divisive **topics** in contemporary politics.",
     difficulty: "easy",
     synonyms: ["subject", "issue", "theme", "matter"],
-    tip: "A general word for the subject being discussed or written about."
+    tip: "A neutral, general word for what a discussion or piece of writing is about."
   },
   {
     word: "transmission",
-    context: "The **transmission** of misinformation online often outpaces fact-checking efforts.",
+    context: "Improved sanitation has drastically reduced the **transmission** of waterborne diseases.",
     difficulty: "medium",
-    synonyms: ["spreading", "propagation", "dissemination", "conveyance"],
-    tip: "Can refer to spreading disease, information, or signals."
+    synonyms: ["spread", "transfer", "propagation", "conveyance"],
+    tip: "Common in both public health ('disease transmission') and technology ('data transmission') contexts."
   },
   {
     word: "ultimately",
-    context: "**Ultimately**, the success of the policy depends on public compliance.",
+    context: "**Ultimately**, the success of the policy will depend on how consistently it is enforced.",
     difficulty: "medium",
-    synonyms: ["in the end", "eventually", "fundamentally", "at bottom"],
-    tip: "Signals the final or most important point after considering other factors."
+    synonyms: ["finally", "in the end", "eventually", "fundamentally"],
+    tip: "Useful for signalling the final, most important point in an argument's conclusion."
   },
   {
     word: "unique",
-    context: "Each region faces a **unique** combination of economic and social challenges.",
+    context: "Each ecosystem faces a **unique** combination of environmental pressures.",
     difficulty: "easy",
-    synonyms: ["distinctive", "unparalleled", "singular", "one-of-a-kind"],
-    tip: "Technically absolute — avoid 'very unique' or 'more unique' in formal writing."
+    synonyms: ["distinctive", "singular", "one-of-a-kind", "unparalleled"],
+    tip: "Technically absolute — avoid 'very unique' or 'more unique', since something either is or isn't one of a kind."
   },
   {
     word: "visible",
-    context: "The effects of the policy became **visible** within just a few months.",
+    context: "The effects of coastal erosion are already **visible** along much of the shoreline.",
     difficulty: "easy",
-    synonyms: ["apparent", "evident", "noticeable", "observable"],
-    tip: "Can be literal (seen with the eye) or figurative (clearly evident)."
+    synonyms: ["apparent", "evident", "noticeable", "observable", "perceptible"],
+    tip: "Can describe something literally seen, or figuratively 'evident' from evidence."
   },
   {
     word: "voluntary",
-    context: "The scheme relies on **voluntary** contributions rather than mandatory taxation.",
-    difficulty: "medium",
-    synonyms: ["optional", "unforced", "willing", "discretionary"],
-    tip: "The opposite of 'compulsory' or 'mandatory' — done by choice."
+    context: "Participation in the wellness programme remains entirely **voluntary**.",
+    difficulty: "easy",
+    synonyms: ["optional", "discretionary", "unforced", "elective"],
+    tip: "The opposite of 'mandatory' or 'compulsory' — a key contrast in essays on policy design."
   },
   {
     word: "abstract",
-    context: "The theory remains largely **abstract**, with little practical application so far.",
+    context: "The theory remains largely **abstract**, with little practical application demonstrated so far.",
     difficulty: "medium",
-    synonyms: ["theoretical", "conceptual", "intangible", "notional"],
-    tip: "The opposite of 'concrete' — describes ideas not tied to specific physical instances."
+    synonyms: ["theoretical", "conceptual", "intangible", "hypothetical"],
+    tip: "The opposite of 'concrete' — also a noun meaning a short summary of a research paper."
   },
   {
     word: "accurate",
-    context: "**Accurate** forecasting is essential for effective disaster preparedness.",
+    context: "Reliable policymaking depends on **accurate** and up-to-date data.",
     difficulty: "easy",
-    synonyms: ["precise", "exact", "correct", "reliable"],
-    tip: "Emphasises correctness and freedom from error, especially in data or measurement."
+    synonyms: ["precise", "exact", "correct", "reliable", "faithful"],
+    tip: "Emphasises correctness and freedom from error, especially in measurement or reporting."
   },
   {
     word: "acknowledged",
-    context: "The minister **acknowledged** that the policy had unintended consequences.",
-    difficulty: "easy",
+    context: "The report **acknowledged** the limitations of its own sample size.",
+    difficulty: "medium",
     synonyms: ["admitted", "recognised", "conceded", "accepted"],
-    tip: "Implies a formal or reluctant admission of a fact, fault, or contribution."
+    tip: "Useful in essays for showing balanced argument — 'while it is acknowledged that...'"
   },
   {
     word: "aggregate",
-    context: "The **aggregate** demand for housing has risen faster than supply.",
+    context: "The **aggregate** demand for housing has outpaced supply in most major cities.",
     difficulty: "hard",
-    synonyms: ["total", "combined", "cumulative", "overall"],
-    tip: "A formal economics term for a whole formed by combining several elements."
+    synonyms: ["total", "combined", "cumulative", "overall", "sum"],
+    tip: "Refers to a whole formed by combining several elements — common in economics."
   },
   {
     word: "allocation",
-    context: "The **allocation** of healthcare resources during the pandemic sparked ethical debate.",
+    context: "The government faced criticism over its **allocation** of pandemic relief funds.",
     difficulty: "medium",
-    synonyms: ["distribution", "apportionment", "assignment", "sharing out"],
-    tip: "Refers to how limited resources are divided among competing needs."
+    synonyms: ["distribution", "apportionment", "assignment", "allotment"],
+    tip: "Refers to how a limited resource is divided among different uses or groups."
   },
   {
     word: "assigned",
-    context: "Each committee member was **assigned** a specific area of responsibility.",
+    context: "Each student was **assigned** a mentor for the duration of the programme.",
     difficulty: "easy",
-    synonyms: ["allocated", "designated", "appointed", "delegated"],
-    tip: "To give someone a specific task, role, or resource."
+    synonyms: ["allocated", "designated", "appointed", "given"],
+    tip: "Implies a deliberate, often official, act of allotting a task, role, or resource."
   },
   {
     word: "attached",
-    context: "Strict conditions were **attached** to the emergency loan agreement.",
+    context: "There is often a stigma **attached** to seeking help for mental health issues.",
     difficulty: "easy",
-    synonyms: ["appended", "linked", "connected", "tied"],
-    tip: "Often used figuratively to describe conditions or terms accompanying something."
+    synonyms: ["associated", "linked", "connected", "tied"],
+    tip: "Figuratively means 'connected to' — separate from its literal sense of physically joined."
   },
   {
     word: "author",
-    context: "The **author** of the report drew on decades of field research.",
+    context: "The policy's original **author** later admitted the reform had unintended consequences.",
     difficulty: "easy",
-    synonyms: ["writer", "creator", "originator"],
-    tip: "Can also be a verb — 'to author a policy paper'."
+    synonyms: ["writer", "creator", "originator", "architect"],
+    tip: "Can refer to a book's writer, or more broadly, the person responsible for creating a plan or idea."
   },
   {
     word: "bond",
-    context: "A shared sense of crisis strengthened the **bond** between the two nations.",
-    difficulty: "medium",
-    synonyms: ["tie", "link", "connection", "attachment"],
-    tip: "In finance, 'bond' has a distinct meaning as a debt security — context matters."
+    context: "Shared hardship during the crisis strengthened the **bond** between the two communities.",
+    difficulty: "easy",
+    synonyms: ["connection", "tie", "link", "relationship"],
+    tip: "Also a financial term for a type of debt investment — context clarifies which meaning applies."
   },
   {
     word: "brief",
-    context: "The lawyer prepared a **brief** summarising the key points of the case.",
-    difficulty: "medium",
-    synonyms: ["concise", "short", "summary", "instructions"],
-    tip: "Can be an adjective (short), noun (a summary document), or verb (to inform someone quickly)."
+    context: "Lawyers were given only a **brief** window to review the new evidence.",
+    difficulty: "easy",
+    synonyms: ["short", "concise", "fleeting", "momentary"],
+    tip: "As a noun, 'a brief' means a set of instructions — as an adjective, it means short in duration."
   },
   {
     word: "capable",
-    context: "The new system is **capable** of processing thousands of applications per hour.",
+    context: "Modern AI systems are increasingly **capable** of tasks once thought to require human judgement.",
     difficulty: "easy",
-    synonyms: ["able", "competent", "equipped", "qualified"],
-    tip: "Describes having the ability or resources to do something."
+    synonyms: ["able", "competent", "skilled", "proficient", "qualified"],
+    tip: "Usually followed by 'of' — 'capable of achieving', 'capable of handling'."
   },
   {
     word: "cited",
-    context: "The judge **cited** precedent from a similar case decided a decade earlier.",
+    context: "The report **cited** several independent studies to support its conclusions.",
     difficulty: "medium",
-    synonyms: ["referenced", "quoted", "referred to", "invoked"],
-    tip: "To mention a source or example in support of an argument."
+    synonyms: ["referenced", "quoted", "referred to", "mentioned"],
+    tip: "Implies referring to a source as evidence, distinct from simply 'mentioning' something in passing."
   },
   {
     word: "cooperative",
-    context: "A **cooperative** approach between agencies improved disaster response times.",
-    difficulty: "medium",
-    synonyms: ["collaborative", "joint", "mutual", "cooperating"],
-    tip: "Can also be a noun referring to a jointly owned business or organisation."
+    context: "Tackling climate change requires a **cooperative** effort between nations, not unilateral action.",
+    difficulty: "easy",
+    synonyms: ["collaborative", "joint", "unified", "mutual"],
+    tip: "The opposite of 'unilateral' or 'individualistic' — implies working together toward a shared goal."
   },
   {
     word: "discrimination",
-    context: "Legislation now explicitly bans **discrimination** based on age or disability.",
+    context: "Anti-discrimination laws aim to protect employees from unfair treatment based on gender or race.",
     difficulty: "medium",
     synonyms: ["prejudice", "bias", "unfair treatment", "inequity"],
-    tip: "Refers to unjust treatment of individuals based on a protected characteristic."
+    tip: "Almost always negative in modern usage — implies unjust treatment based on group identity."
   },
   {
     word: "display",
-    context: "The exhibition's centrepiece **display** attracted record numbers of visitors.",
+    context: "The museum's new **display** features artefacts recovered from the shipwreck.",
     difficulty: "easy",
-    synonyms: ["exhibition", "showing", "presentation", "showcase"],
-    tip: "Can be a noun (an exhibit) or verb (to show something openly)."
+    synonyms: ["exhibition", "showcase", "presentation", "exhibit"],
+    tip: "As a verb, 'to display' means to show — as a noun, an arrangement meant to be seen."
   },
   {
     word: "diversity",
-    context: "**Diversity** in the workplace has been shown to improve innovation.",
+    context: "Companies increasingly recognise that **diversity** in hiring leads to more innovative teams.",
     difficulty: "easy",
-    synonyms: ["variety", "range", "heterogeneity", "plurality"],
-    tip: "Refers to the presence of a range of different types, backgrounds, or perspectives."
+    synonyms: ["variety", "heterogeneity", "range", "multiplicity"],
+    tip: "Refers to a range of different types — people, ideas, or species — within a group."
   },
   {
     word: "domain",
-    context: "Artificial intelligence is transforming the **domain** of medical diagnostics.",
+    context: "Artificial intelligence is expanding rapidly into the **domain** of creative work.",
     difficulty: "medium",
-    synonyms: ["field", "sphere", "area", "realm"],
-    tip: "A specific area of knowledge, activity, or authority."
+    synonyms: ["field", "sphere", "area", "realm", "territory"],
+    tip: "A formal word for a particular area of activity, knowledge, or authority."
   },
   {
     word: "edition",
-    context: "The revised **edition** of the textbook includes updated case studies.",
+    context: "The tenth **edition** of the textbook includes an updated chapter on digital ethics.",
     difficulty: "easy",
-    synonyms: ["version", "release", "issue"],
-    tip: "Refers to a particular version of a published work."
+    synonyms: ["version", "issue", "release"],
+    tip: "Specifically refers to a particular version of a published work, distinct from 'copy' (a single instance of it)."
   },
   {
     word: "enhanced",
-    context: "**Enhanced** security measures were introduced following the breach.",
-    difficulty: "medium",
-    synonyms: ["improved", "strengthened", "boosted", "upgraded"],
-    tip: "Implies an existing quality has been made better, not created from scratch."
+    context: "**Enhanced** border security measures were introduced following the incident.",
+    difficulty: "easy",
+    synonyms: ["improved", "strengthened", "upgraded", "boosted", "augmented"],
+    tip: "Implies making something already functional better, not creating it from scratch."
   },
   {
     word: "estate",
-    context: "Rising property prices have made the housing **estate** unaffordable for first-time buyers.",
+    context: "Rising property taxes have made it harder for families to pass down their **estate**.",
     difficulty: "medium",
-    synonyms: ["property", "land", "development"],
-    tip: "Also used in law to mean a person's total assets after death."
+    synonyms: ["property", "assets", "holdings", "land"],
+    tip: "Can refer to a person's total property and possessions, or a large area of land or housing."
   },
   {
     word: "exceed",
-    context: "Actual demand often **exceeds** government projections for public services.",
-    difficulty: "medium",
-    synonyms: ["surpass", "outstrip", "go beyond", "overtake"],
-    tip: "To be greater than an expected amount, limit, or standard."
+    context: "Global temperatures are on track to **exceed** the 1.5-degree threshold within decades.",
+    difficulty: "easy",
+    synonyms: ["surpass", "go beyond", "outstrip", "overtake"],
+    tip: "Implies going past a limit, target, or expectation."
   },
   {
     word: "expert",
-    context: "Independent **experts** were consulted before the policy was finalised.",
+    context: "Public health **experts** urged caution before lifting pandemic restrictions.",
     difficulty: "easy",
-    synonyms: ["specialist", "authority", "professional"],
-    tip: "Someone with extensive knowledge or skill in a particular field."
+    synonyms: ["specialist", "authority", "professional", "connoisseur"],
+    tip: "Useful for citing credible sources in argumentative writing — 'experts argue that...'"
   },
   {
     word: "explicit",
-    context: "The contract contains an **explicit** clause prohibiting subcontracting.",
+    context: "The contract contains an **explicit** clause prohibiting the resale of the product.",
     difficulty: "medium",
-    synonyms: ["clear", "unambiguous", "direct", "specific"],
-    tip: "The opposite of 'implicit' — stated plainly rather than merely implied."
+    synonyms: ["clear", "direct", "unambiguous", "specific", "stated outright"],
+    tip: "The opposite of 'implicit' — something stated directly rather than merely suggested."
   },
   {
     word: "federal",
-    context: "**Federal** funding was allocated to states hit hardest by the disaster.",
+    context: "**Federal** funding for public transport has lagged behind urban population growth.",
     difficulty: "medium",
     synonyms: ["national", "central government"],
-    tip: "Refers to a system where power is shared between a central authority and regional states."
+    tip: "Refers to the central, national level of government in a federal system, as opposed to state or local."
   },
   {
     word: "fees",
-    context: "Rising tuition **fees** have deterred some students from pursuing higher education.",
+    context: "Rising university **fees** have prompted debate over the affordability of higher education.",
     difficulty: "easy",
-    synonyms: ["charges", "costs", "payments", "dues"],
-    tip: "Payments required for a service, membership, or professional undertaking."
+    synonyms: ["charges", "costs", "tuition", "payments"],
+    tip: "Typically refers to payments required for a service, such as education or membership."
   },
   {
     word: "flexibility",
-    context: "Remote work has given employees far greater **flexibility** over their schedules.",
+    context: "Remote work has given employees greater **flexibility** over their daily schedules.",
     difficulty: "easy",
-    synonyms: ["adaptability", "versatility", "freedom", "adjustability"],
-    tip: "The capacity to adapt or be modified in response to changing conditions."
+    synonyms: ["adaptability", "versatility", "adjustability", "freedom"],
+    tip: "The opposite of 'rigidity' — implies the ability to adapt to changing circumstances."
   },
   {
     word: "furthermore",
-    context: "**Furthermore**, the policy fails to address the root causes of the problem.",
-    difficulty: "medium",
-    synonyms: ["moreover", "additionally", "in addition", "besides"],
-    tip: "A formal connector used to introduce an additional supporting point."
+    context: "The policy has proven costly to implement; **furthermore**, early results suggest it has had little effect.",
+    difficulty: "easy",
+    synonyms: ["moreover", "in addition", "besides", "additionally"],
+    tip: "A formal connective for adding a further supporting point to an argument."
   },
   {
     word: "gender",
-    context: "**Gender** pay gaps persist across most industries despite decades of reform.",
+    context: "The report examines the **gender** pay gap across different industries.",
     difficulty: "easy",
-    synonyms: ["sex", "gender identity"],
-    tip: "In academic contexts, often distinguished from biological sex as a social or identity category."
+    synonyms: ["sex (in some contexts)"],
+    tip: "In academic and social contexts, distinguished from biological sex as a social and cultural construct."
   },
   {
     word: "ignored",
-    context: "Early warnings about the risks were largely **ignored** by regulators.",
+    context: "Warnings about the levee's structural weaknesses were repeatedly **ignored** by officials.",
     difficulty: "easy",
     synonyms: ["disregarded", "overlooked", "dismissed", "neglected"],
-    tip: "To fail to take notice of, whether deliberately or through negligence."
+    tip: "Implies a conscious failure to pay attention to something that should have been addressed."
   },
   {
     word: "incentive",
-    context: "Tax breaks act as a powerful **incentive** for renewable energy investment.",
+    context: "Tax breaks act as an **incentive** for companies to invest in renewable energy.",
     difficulty: "medium",
-    synonyms: ["motivation", "inducement", "encouragement", "spur"],
-    tip: "Something that encourages a particular course of action."
+    synonyms: ["motivation", "inducement", "encouragement", "stimulus", "reward"],
+    tip: "Something that encourages a particular behaviour — central to essays on policy design."
   },
   {
     word: "incidence",
-    context: "The **incidence** of chronic disease rises sharply with age.",
+    context: "The **incidence** of childhood obesity has risen sharply over the past two decades.",
     difficulty: "hard",
-    synonyms: ["rate", "frequency", "occurrence", "prevalence"],
-    tip: "A statistical term for how often something occurs within a given population."
+    synonyms: ["occurrence", "rate", "frequency", "prevalence"],
+    tip: "Don't confuse with 'incident' (a single event) — 'incidence' refers to the rate at which something occurs."
   },
   {
     word: "incorporated",
-    context: "Sustainability targets have been **incorporated** into the firm's core strategy.",
+    context: "Feedback from residents was **incorporated** into the final version of the urban plan.",
     difficulty: "medium",
-    synonyms: ["integrated", "included", "embedded", "built in"],
-    tip: "To include something as part of a larger whole."
+    synonyms: ["included", "integrated", "absorbed", "embedded"],
+    tip: "Implies something has been combined into a larger, existing whole."
   },
   {
     word: "index",
-    context: "The consumer price **index** tracks changes in the cost of everyday goods.",
+    context: "The consumer price **index** is used to track inflation over time.",
     difficulty: "medium",
     synonyms: ["indicator", "measure", "gauge", "benchmark"],
-    tip: "A statistical measure used to track changes over time."
+    tip: "A standardised measure used to track change — also refers to an alphabetical list at the back of a book."
   },
   {
     word: "inhibition",
-    context: "Social **inhibition** can prevent employees from voicing concerns to management.",
+    context: "Social media can lower people's **inhibition** about sharing personal opinions publicly.",
     difficulty: "hard",
-    synonyms: ["restraint", "hesitancy", "reluctance", "suppression"],
-    tip: "A psychological or social restraint that prevents an action or expression."
+    synonyms: ["restraint", "reluctance", "hesitation", "self-consciousness"],
+    tip: "Refers to a psychological or social barrier that holds someone back from acting freely."
   },
   {
     word: "initiatives",
-    context: "Several community **initiatives** aim to reduce youth unemployment.",
-    difficulty: "easy",
-    synonyms: ["schemes", "programmes", "projects", "efforts"],
-    tip: "New plans or actions intended to address a specific problem."
+    context: "The city launched several green **initiatives** aimed at reducing carbon emissions.",
+    difficulty: "medium",
+    synonyms: ["programmes", "schemes", "measures", "projects", "campaigns"],
+    tip: "Refers to new plans or actions intended to achieve a specific goal."
   },
   {
     word: "input",
-    context: "Public **input** was sought before the policy was finalised.",
+    context: "Public **input** was sought before the new zoning laws were finalised.",
     difficulty: "easy",
-    synonyms: ["contribution", "feedback", "opinion", "suggestions"],
-    tip: "Information, resources, or opinions contributed to a process or decision."
+    synonyms: ["contribution", "feedback", "opinion", "involvement"],
+    tip: "Can refer to information contributed to a decision, or resources fed into a process (economic 'inputs')."
   },
   {
     word: "instructions",
-    context: "Employees received clear **instructions** on handling sensitive customer data.",
+    context: "The manual's **instructions** were unclear, leading to widespread installation errors.",
     difficulty: "easy",
-    synonyms: ["directions", "guidance", "orders", "directives"],
-    tip: "Statements telling someone how to do something or how something works."
+    synonyms: ["directions", "guidelines", "directives", "orders"],
+    tip: "Implies a set of steps to be followed, often given some authority or expertise."
   },
   {
     word: "intelligence",
-    context: "Artificial **intelligence** is reshaping industries from healthcare to finance.",
-    difficulty: "easy",
-    synonyms: ["cognition", "reasoning ability", "acumen"],
-    tip: "Can refer to mental capability or, separately, to gathered information (military intelligence)."
+    context: "Emotional **intelligence** is increasingly valued alongside technical skill in the workplace.",
+    difficulty: "medium",
+    synonyms: ["intellect", "cognitive ability", "acumen", "aptitude"],
+    tip: "Can refer to mental capability broadly, or, in security contexts, to gathered information."
   },
   {
     word: "interval",
-    context: "Data was collected at regular **intervals** throughout the study period.",
+    context: "Data was collected at regular **intervals** throughout the six-month study.",
     difficulty: "medium",
-    synonyms: ["gap", "period", "space", "break"],
-    tip: "A period of time between two events or points."
+    synonyms: ["period", "gap", "span", "break"],
+    tip: "Refers to the space of time between two points or events."
   },
   {
     word: "lecture",
-    context: "The professor's **lecture** on inequality drew a packed auditorium.",
+    context: "The professor's opening **lecture** outlined the key debates in development economics.",
     difficulty: "easy",
     synonyms: ["talk", "presentation", "address", "seminar"],
-    tip: "A formal educational talk, or informally, a stern reprimand."
+    tip: "As a verb, 'to lecture someone' can also mean to scold them at length — a more critical sense."
   },
   {
     word: "migration",
-    context: "Climate-induced **migration** is expected to accelerate over the coming decades.",
+    context: "Climate-driven **migration** is expected to displace millions in the coming decades.",
     difficulty: "medium",
-    synonyms: ["movement", "relocation", "displacement", "resettlement"],
-    tip: "The movement of people (or animals) from one place to another, often long-term."
+    synonyms: ["relocation", "movement", "resettlement", "exodus"],
+    tip: "Refers to large-scale movement of people (or animals) from one place to another."
   },
   {
     word: "minimum",
-    context: "The proposed **minimum** wage increase has divided business owners and workers.",
+    context: "The proposed law would raise the **minimum** wage for all full-time workers.",
     difficulty: "easy",
-    synonyms: ["lowest", "least", "smallest amount", "floor"],
-    tip: "The smallest permissible or possible amount, the opposite of 'maximum'."
+    synonyms: ["lowest", "least", "smallest", "bare minimum"],
+    tip: "The opposite of 'maximum' — often paired with 'wage', 'requirement', or 'standard'."
   },
   {
     word: "ministry",
-    context: "The **ministry** of health issued new guidance on hospital capacity.",
+    context: "The **ministry** of health issued new guidelines on vaccine distribution.",
     difficulty: "easy",
     synonyms: ["department", "government agency"],
-    tip: "A government department responsible for a particular area of public policy."
+    tip: "Refers to a specific branch of government responsible for a policy area."
   },
   {
     word: "motivation",
-    context: "Financial incentives alone rarely sustain long-term employee **motivation**.",
+    context: "Financial incentives alone are often insufficient to sustain long-term employee **motivation**.",
     difficulty: "easy",
-    synonyms: ["drive", "incentive", "impetus", "inspiration"],
-    tip: "The underlying reason or drive behind a person's actions."
+    synonyms: ["drive", "incentive", "impetus", "inspiration", "determination"],
+    tip: "Refers to the underlying reason or drive behind a person's actions."
   },
   {
     word: "neutral",
-    context: "The mediator remained strictly **neutral** throughout the negotiations.",
-    difficulty: "medium",
-    synonyms: ["impartial", "unbiased", "objective", "even-handed"],
-    tip: "Not favouring either side in a dispute or comparison."
+    context: "International mediators are expected to remain **neutral** throughout the peace negotiations.",
+    difficulty: "easy",
+    synonyms: ["impartial", "unbiased", "objective", "non-partisan"],
+    tip: "Implies not favouring either side — important for essays discussing fairness or objectivity."
   },
   {
     word: "nevertheless",
-    context: "The reforms were unpopular; **nevertheless**, the government pressed ahead.",
+    context: "The trial was expensive and time-consuming; **nevertheless**, researchers deemed it worthwhile.",
     difficulty: "medium",
-    synonyms: ["nonetheless", "even so", "regardless", "still"],
-    tip: "A formal connector introducing a contrast despite what was just stated."
+    synonyms: ["nonetheless", "even so", "however", "still"],
+    tip: "A formal connective used to introduce a point that contrasts with what came before."
   },
   {
     word: "overseas",
-    context: "Many graduates seek **overseas** employment due to limited local opportunities.",
+    context: "Many students choose to pursue postgraduate studies **overseas** for broader career opportunities.",
     difficulty: "easy",
-    synonyms: ["foreign", "abroad", "international"],
-    tip: "Refers to a location across the sea, typically meaning 'in another country'."
+    synonyms: ["abroad", "foreign", "international"],
+    tip: "Specifically implies travel across the sea — used more in British English than American English."
   },
   {
     word: "preceding",
-    context: "The **preceding** decade saw unprecedented growth in the technology sector.",
+    context: "The **preceding** chapter outlined the historical context for the policy shift discussed here.",
     difficulty: "hard",
-    synonyms: ["previous", "prior", "earlier", "foregoing"],
-    tip: "Refers to something that comes immediately before in time or sequence."
+    synonyms: ["previous", "prior", "foregoing", "earlier"],
+    tip: "Refers to what came immediately before, often within a text or sequence of events."
   },
   {
     word: "presumption",
-    context: "There is a legal **presumption** of innocence until guilt is proven.",
+    context: "The court operates on the **presumption** of innocence until guilt is proven.",
     difficulty: "hard",
-    synonyms: ["assumption", "supposition", "inference"],
-    tip: "A belief or acceptance taken as true without direct proof."
+    synonyms: ["assumption", "supposition", "premise", "expectation"],
+    tip: "Refers to something accepted as true without direct proof, often as a starting point for reasoning."
   },
   {
     word: "rational",
-    context: "Voters do not always make **rational** decisions based purely on self-interest.",
+    context: "Behavioural economists have shown that people do not always act in a **rational** manner.",
     difficulty: "medium",
-    synonyms: ["logical", "reasoned", "sensible", "sound"],
-    tip: "Based on clear reasoning, contrasted with 'emotional' or 'impulsive'."
+    synonyms: ["logical", "reasonable", "sensible", "sound"],
+    tip: "The opposite of 'irrational' or 'emotional' — implies decisions based on reason rather than feeling."
   },
   {
     word: "recovery",
-    context: "Economic **recovery** following the pandemic has been slower than expected.",
+    context: "Economic **recovery** following the pandemic has been uneven across different sectors.",
     difficulty: "easy",
-    synonyms: ["rebound", "revival", "resurgence", "turnaround"],
-    tip: "A return to a normal or improved state after a period of difficulty."
+    synonyms: ["rebound", "revival", "resurgence", "comeback"],
+    tip: "Refers to a return to a previous, healthier state after a decline."
   },
   {
     word: "revealed",
-    context: "Internal documents **revealed** that the risks had been known for years.",
+    context: "Internal documents **revealed** that executives were aware of the safety risks for years.",
     difficulty: "easy",
-    synonyms: ["disclosed", "exposed", "uncovered", "showed"],
-    tip: "To make known previously hidden or secret information."
+    synonyms: ["exposed", "disclosed", "uncovered", "divulged"],
+    tip: "Implies something previously hidden or unknown has now been made public."
   },
   {
     word: "scope",
-    context: "The inquiry's **scope** was later expanded to include private contractors.",
+    context: "The investigation's **scope** was later widened to include the company's overseas operations.",
     difficulty: "medium",
-    synonyms: ["extent", "range", "reach", "breadth"],
-    tip: "The area or range that something covers or deals with."
+    synonyms: ["extent", "range", "breadth", "reach", "ambit"],
+    tip: "Refers to the range of matters a plan, study, or inquiry covers."
   },
   {
     word: "subsidiary",
-    context: "The parent company sold off its loss-making **subsidiary** last year.",
+    context: "The parent company transferred its riskiest assets to an offshore **subsidiary**.",
     difficulty: "hard",
-    synonyms: ["affiliate", "branch", "offshoot"],
-    tip: "A company controlled by another, larger company."
+    synonyms: ["branch", "affiliate", "division", "offshoot"],
+    tip: "A company controlled by another, larger company — also used as an adjective meaning 'secondary in importance'."
   },
   {
     word: "tapes",
-    context: "Investigators reviewed hours of surveillance **tapes** before making an arrest.",
+    context: "Investigators reviewed hours of security **tapes** to reconstruct the sequence of events.",
     difficulty: "easy",
     synonyms: ["recordings", "footage"],
-    tip: "Traditionally recorded video or audio material, now used loosely for any recording."
+    tip: "Now used loosely for any recorded footage, even when no physical tape is involved."
   },
   {
     word: "trace",
-    context: "Scientists could not **trace** the outbreak to a single source.",
-    difficulty: "medium",
-    synonyms: ["track", "follow", "identify the origin of"],
-    tip: "To follow evidence back to its origin, or a very small detectable amount."
+    context: "Investigators could not **trace** the source of the leaked documents.",
+    difficulty: "easy",
+    synonyms: ["track down", "locate", "pinpoint", "follow"],
+    tip: "As a noun, 'a trace' means a very small amount or faint sign of something."
   },
   {
     word: "transformation",
-    context: "Digitalisation has driven a rapid **transformation** of the retail sector.",
+    context: "Digital technology has driven a fundamental **transformation** in how retail businesses operate.",
     difficulty: "medium",
-    synonyms: ["change", "conversion", "overhaul", "metamorphosis"],
-    tip: "A thorough or dramatic change in form, appearance, or character."
+    synonyms: ["change", "conversion", "metamorphosis", "overhaul"],
+    tip: "Implies a thorough, often dramatic, change in form or nature."
   },
   {
     word: "underlying",
-    context: "Policymakers must address the **underlying** causes of homelessness, not just its symptoms.",
+    context: "Addressing the **underlying** causes of poverty requires more than short-term relief measures.",
     difficulty: "medium",
-    synonyms: ["root", "fundamental", "basic", "core"],
-    tip: "Refers to something forming the base or origin of a more visible problem."
+    synonyms: ["fundamental", "root", "basic", "core", "inherent"],
+    tip: "Refers to a cause or factor that is not immediately obvious but drives what is visible on the surface."
   },
   {
     word: "utility",
-    context: "The **utility** of the new app depends on widespread public adoption.",
+    context: "Smartphones have largely replaced single-purpose devices due to their sheer **utility**.",
     difficulty: "hard",
-    synonyms: ["usefulness", "practicality", "value", "functionality"],
-    tip: "Can also refer specifically to a public service such as electricity or water."
+    synonyms: ["usefulness", "practicality", "functionality", "value"],
+    tip: "Also refers to public services like electricity and water — 'utility bills'."
   },
   {
     word: "adjustment",
-    context: "Firms had to make significant **adjustments** to comply with new regulations.",
+    context: "The transition to remote work required a significant **adjustment** in how teams communicated.",
     difficulty: "easy",
-    synonyms: ["modification", "alteration", "adaptation", "change"],
-    tip: "A small to moderate change made to improve or correct something."
+    synonyms: ["adaptation", "modification", "change", "recalibration"],
+    tip: "Implies a smaller, incremental change rather than a complete transformation."
   },
   {
     word: "alter",
-    context: "Climate change is expected to **alter** rainfall patterns across the region.",
-    difficulty: "medium",
-    synonyms: ["change", "modify", "transform", "adjust"],
-    tip: "A more formal alternative to 'change', often used for gradual shifts."
+    context: "Even small policy changes can **alter** consumer behaviour in unpredictable ways.",
+    difficulty: "easy",
+    synonyms: ["change", "modify", "adjust", "amend", "transform"],
+    tip: "A neutral, versatile verb for 'to change' — works for both minor and major changes."
   },
   {
     word: "amendment",
-    context: "The proposed **amendment** would extend voting rights to younger citizens.",
+    context: "Lawmakers proposed an **amendment** to close a loophole in the tax code.",
     difficulty: "medium",
-    synonyms: ["revision", "modification", "alteration", "reform"],
-    tip: "A formal change made to a law, contract, or constitution."
+    synonyms: ["revision", "modification", "alteration", "change", "correction"],
+    tip: "Usually refers specifically to a change made to a law, constitution, or formal document."
   },
   {
     word: "aware",
-    context: "Consumers are becoming increasingly **aware** of the environmental cost of fast fashion.",
+    context: "Consumers are becoming more **aware** of the environmental cost of fast fashion.",
     difficulty: "easy",
-    synonyms: ["conscious", "cognizant", "mindful", "informed"],
-    tip: "Having knowledge or perception of a fact or situation."
+    synonyms: ["conscious", "informed", "cognisant", "mindful"],
+    tip: "Usually followed by 'of' — 'aware of the risks', 'aware of the consequences'."
   },
   {
     word: "capacity",
-    context: "Hospitals were operating well beyond their normal **capacity** during the outbreak.",
+    context: "Hospitals were operating well beyond their **capacity** during the peak of the outbreak.",
     difficulty: "medium",
-    synonyms: ["ability", "capability", "limit", "volume"],
+    synonyms: ["capability", "ability", "potential", "limit", "volume"],
     tip: "Can mean the maximum amount something can hold, or a person's ability to do something."
   },
   {
     word: "challenge",
-    context: "Ageing populations present a significant **challenge** to pension systems.",
+    context: "Balancing economic growth with environmental protection remains a persistent **challenge**.",
     difficulty: "easy",
-    synonyms: ["difficulty", "problem", "obstacle", "test"],
-    tip: "Something demanding effort or skill to overcome, not merely a minor issue."
+    synonyms: ["difficulty", "obstacle", "hurdle", "problem", "test"],
+    tip: "Also a verb — 'to challenge' means to question or dispute something."
   },
   {
     word: "clause",
-    context: "A confidentiality **clause** was included in every employee contract.",
+    context: "A confidentiality **clause** prevented former employees from discussing the settlement.",
     difficulty: "medium",
-    synonyms: ["provision", "condition", "stipulation", "term"],
-    tip: "A specific section of a legal or formal document."
+    synonyms: ["provision", "stipulation", "condition", "term"],
+    tip: "Refers to a specific section within a legal or formal document."
   },
   {
     word: "compounds",
-    context: "Certain chemical **compounds** in the pesticide were later found to be toxic.",
+    context: "Chemists identified several toxic **compounds** in the industrial runoff.",
     difficulty: "hard",
-    synonyms: ["substances", "mixtures"],
-    tip: "A substance formed by combining two or more elements, common in chemistry."
+    synonyms: ["substances", "mixtures", "combinations"],
+    tip: "As a verb, 'to compound' means to make a problem worse — a distinct, essay-relevant usage."
   },
   {
     word: "conflict",
     context: "Resource scarcity has historically been a major driver of armed **conflict**.",
     difficulty: "easy",
-    synonyms: ["dispute", "clash", "confrontation", "strife"],
-    tip: "A serious disagreement or struggle, ranging from interpersonal to international."
+    synonyms: ["dispute", "clash", "confrontation", "strife", "struggle"],
+    tip: "Can describe anything from an interpersonal disagreement to full-scale war."
   },
   {
     word: "consultation",
-    context: "The reforms followed months of public **consultation** with affected communities.",
+    context: "The government held a public **consultation** before finalising the new planning laws.",
     difficulty: "medium",
     synonyms: ["discussion", "deliberation", "dialogue", "conference"],
-    tip: "A formal process of seeking opinions before making a decision."
+    tip: "Implies a formal process of seeking opinions before making a decision."
   },
   {
     word: "contact",
-    context: "Reduced physical **contact** during lockdowns affected children's social development.",
+    context: "Reducing physical **contact** during the outbreak was central to slowing transmission.",
     difficulty: "easy",
-    synonyms: ["interaction", "connection", "communication"],
-    tip: "Can be a noun (contact) or verb (to contact someone)."
+    synonyms: ["interaction", "communication", "connection"],
+    tip: "As a verb, 'to contact someone' means to communicate with them."
   },
   {
     word: "decline",
-    context: "The industry has experienced a steady **decline** in profitability since 2015.",
+    context: "The industry has experienced a steady **decline** in demand over the past five years.",
     difficulty: "easy",
-    synonyms: ["downturn", "drop", "fall", "deterioration"],
-    tip: "A gradual and sustained decrease, whether in quantity, quality, or strength."
+    synonyms: ["fall", "drop", "downturn", "deterioration", "reduction"],
+    tip: "Can be a noun (a decline in sales) or a verb (sales declined, or to decline an offer)."
   },
   {
     word: "discretion",
-    context: "Judges are given considerable **discretion** in sentencing minor offences.",
+    context: "Judges are often given considerable **discretion** in sentencing decisions.",
     difficulty: "hard",
-    synonyms: ["freedom of judgement", "latitude", "leeway", "autonomy"],
-    tip: "The freedom to decide something based on personal judgement rather than fixed rules."
+    synonyms: ["judgement", "latitude", "leeway", "autonomy"],
+    tip: "Refers to the freedom to make decisions based on one's own judgement, within limits."
   },
   {
     word: "draft",
-    context: "The first **draft** of the bill was heavily criticised by opposition MPs.",
+    context: "The committee circulated a **draft** of the proposal for feedback before the final vote.",
     difficulty: "easy",
-    synonyms: ["version", "outline", "manuscript"],
-    tip: "A preliminary version of a document, subject to revision."
+    synonyms: ["outline", "preliminary version", "blueprint", "rough copy"],
+    tip: "Implies an unfinished version, subject to revision before it is finalised."
   },
   {
     word: "enable",
-    context: "Faster broadband access can **enable** rural businesses to compete online.",
+    context: "Advances in mobile technology have **enabled** millions to access banking for the first time.",
     difficulty: "easy",
-    synonyms: ["allow", "permit", "facilitate", "empower"],
-    tip: "To make something possible, often by providing the means to do so."
+    synonyms: ["allow", "facilitate", "permit", "empower", "make possible"],
+    tip: "Implies making something possible, often by removing a previous obstacle."
   },
   {
     word: "energy",
-    context: "Investment in renewable **energy** has surged over the past decade.",
+    context: "Investment in renewable **energy** has accelerated as the cost of solar panels has fallen.",
     difficulty: "easy",
-    synonyms: ["power", "fuel source"],
-    tip: "Can refer to physical power sources or, figuratively, to vigour and enthusiasm."
+    synonyms: ["power", "fuel"],
+    tip: "In physics, a technical term for the capacity to do work; in policy contexts, usually refers to power sources."
   },
   {
     word: "enforcement",
-    context: "Weak **enforcement** of environmental laws undermines their intended impact.",
+    context: "Weak **enforcement** undermines even the most well-designed environmental regulations.",
     difficulty: "medium",
-    synonyms: ["implementation", "application", "compliance monitoring"],
-    tip: "The process of ensuring that laws or rules are obeyed."
+    synonyms: ["implementation", "application", "administration", "policing"],
+    tip: "Refers to making sure rules or laws are actually followed, not just written."
   },
   {
     word: "entities",
-    context: "Several private **entities** were involved in managing the public contract.",
+    context: "Multiple government **entities** were involved in coordinating the disaster response.",
     difficulty: "hard",
-    synonyms: ["organisations", "bodies", "institutions", "companies"],
-    tip: "A general, formal term for any organisation or body with distinct existence."
+    synonyms: ["organisations", "bodies", "institutions", "agencies"],
+    tip: "A formal, neutral term for distinct organisations or things treated as a single unit."
   },
   {
     word: "equivalent",
-    context: "The subsidy is roughly **equivalent** to a month's average wage.",
+    context: "The stipend is roughly **equivalent** to a month's rent in the city.",
     difficulty: "medium",
-    synonyms: ["comparable", "equal", "corresponding", "parallel"],
-    tip: "Having the same value, function, or meaning as something else."
+    synonyms: ["equal", "comparable", "corresponding", "matching"],
+    tip: "Implies two things are of the same value or amount, even if not identical in form."
   },
   {
     word: "evolution",
-    context: "The **evolution** of consumer habits has forced retailers to adapt quickly.",
+    context: "The **evolution** of workplace culture has accelerated since the shift to remote work.",
     difficulty: "medium",
-    synonyms: ["development", "progression", "transformation", "growth"],
-    tip: "Gradual change over time, whether biological or figurative."
+    synonyms: ["development", "progression", "growth", "transformation"],
+    tip: "Implies gradual change over time, as opposed to a sudden, deliberate transformation."
   },
   {
     word: "expansion",
-    context: "The company's rapid **expansion** overseas strained its management capacity.",
-    difficulty: "medium",
+    context: "Rapid urban **expansion** has placed increasing strain on the city's water supply.",
+    difficulty: "easy",
     synonyms: ["growth", "extension", "enlargement", "spread"],
-    tip: "An increase in size, scope, or reach."
+    tip: "Implies growth in size, scope, or scale."
   },
   {
     word: "exposure",
-    context: "Prolonged **exposure** to social media has been linked to rising anxiety levels.",
+    context: "Prolonged **exposure** to air pollution has been linked to respiratory illness.",
     difficulty: "medium",
-    synonyms: ["contact with", "subjection to", "vulnerability to"],
-    tip: "Being subjected to an influence, condition, or risk over time."
+    synonyms: ["contact with", "vulnerability to", "susceptibility"],
+    tip: "Can refer to physical exposure (to a substance) or figurative exposure (to ideas, media, or risk)."
   },
   {
     word: "external",
-    context: "The firm sought **external** advice before restructuring its board.",
+    context: "The company brought in **external** consultants to review its financial practices.",
     difficulty: "easy",
-    synonyms: ["outside", "extraneous", "third-party"],
-    tip: "Coming from outside a particular system, organisation, or body."
+    synonyms: ["outside", "outward", "exterior"],
+    tip: "The opposite of 'internal' — signals something originating outside a given system or organisation."
   },
   {
     word: "fundamental",
-    context: "Access to education is a **fundamental** right recognised internationally.",
-    difficulty: "medium",
-    synonyms: ["essential", "basic", "core", "primary"],
-    tip: "Forming a necessary base or core part of something, not merely important."
+    context: "Access to clean water is a **fundamental** human need, not a luxury.",
+    difficulty: "easy",
+    synonyms: ["basic", "essential", "core", "underlying", "elementary"],
+    tip: "Describes something so central it cannot be removed without changing the nature of the whole."
   },
   {
     word: "generated",
-    context: "Renewable sources now account for over a third of electricity **generated** nationally.",
+    context: "The new policy is expected to have **generated** thousands of jobs within its first year.",
     difficulty: "easy",
-    synonyms: ["produced", "created", "yielded"],
-    tip: "To bring something into existence, often used for energy, revenue, or ideas."
+    synonyms: ["produced", "created", "brought about", "yielded"],
+    tip: "Implies something has been actively produced or brought into being, often as a by-product of a process."
   },
   {
     word: "generation",
-    context: "The current **generation** faces unprecedented levels of student debt.",
+    context: "Each **generation** faces a distinct set of economic challenges shaped by the era they grew up in.",
     difficulty: "easy",
-    synonyms: ["age group", "cohort"],
-    tip: "Can refer to a group born around the same time, or the process of creating something."
+    synonyms: ["age group", "cohort", "era"],
+    tip: "Can refer to a group of people of similar age, or the process of producing something (energy generation)."
   },
   {
     word: "image",
-    context: "The company invested heavily in rebuilding its public **image**.",
+    context: "The scandal severely damaged the company's public **image**.",
     difficulty: "easy",
-    synonyms: ["reputation", "perception", "impression"],
-    tip: "Can be literal (a picture) or figurative (how something is perceived)."
+    synonyms: ["reputation", "perception", "impression", "profile"],
+    tip: "Figuratively refers to how something or someone is perceived by others, not just a visual picture."
   },
   {
     word: "liberal",
-    context: "A more **liberal** immigration policy has been proposed by opposition parties.",
+    context: "**Liberal** democracies generally place strong emphasis on individual rights and free expression.",
     difficulty: "medium",
-    synonyms: ["permissive", "open", "tolerant", "progressive"],
-    tip: "Politically, associated with individual freedom; generally, means open-minded or generous."
+    synonyms: ["progressive", "open-minded", "tolerant"],
+    tip: "Has both a political sense (a philosophy of governance) and a general sense (open-minded, generous)."
   },
   {
     word: "licence",
-    context: "Operators must obtain a **licence** before broadcasting on public airwaves.",
-    difficulty: "medium",
+    context: "Operating without a valid business **licence** can result in significant fines.",
+    difficulty: "easy",
     synonyms: ["permit", "authorisation", "certification"],
-    tip: "Note the British noun spelling 'licence' versus the verb 'license'."
+    tip: "British spelling of the noun; 'license' is the verb in British English ('to license a product')."
   },
   {
     word: "logic",
-    context: "The **logic** behind the policy rests on questionable economic assumptions.",
+    context: "Critics questioned the **logic** behind cutting funding for preventive healthcare.",
     difficulty: "medium",
-    synonyms: ["reasoning", "rationale", "argument"],
-    tip: "The underlying reasoning or principles behind a decision or argument."
+    synonyms: ["reasoning", "rationale", "sense", "coherence"],
+    tip: "Refers to a structured line of reasoning connecting evidence to a conclusion."
   },
   {
     word: "marginal",
-    context: "The policy change is likely to have only a **marginal** effect on unemployment.",
+    context: "The reforms produced only a **marginal** improvement in overall literacy rates.",
     difficulty: "hard",
     synonyms: ["minor", "slight", "negligible", "small"],
-    tip: "Refers to a small, often barely noticeable, effect or difference."
+    tip: "In economics, refers specifically to the effect of one additional unit — 'marginal cost', 'marginal benefit'."
   },
   {
     word: "medical",
-    context: "Access to affordable **medical** care remains uneven across regions.",
+    context: "Advances in **medical** technology have significantly extended average life expectancy.",
     difficulty: "easy",
-    synonyms: ["clinical", "healthcare-related"],
-    tip: "Relating to the treatment of illness and the maintenance of health."
+    synonyms: ["clinical", "health-related"],
+    tip: "Relates specifically to medicine and healthcare, as distinct from 'mental' or 'physical' more broadly."
   },
   {
     word: "mental",
-    context: "**Mental** health awareness has grown significantly among younger generations.",
+    context: "Workplace stress can take a serious toll on employees' **mental** health.",
     difficulty: "easy",
     synonyms: ["psychological", "cognitive", "emotional"],
-    tip: "Relating to the mind, as opposed to the body."
+    tip: "Relates to the mind, as opposed to 'physical', which relates to the body."
   },
   {
     word: "modified",
-    context: "The vaccine formula was **modified** to target newer strains of the virus.",
-    difficulty: "medium",
-    synonyms: ["altered", "adapted", "adjusted", "changed"],
-    tip: "To make partial changes to something without transforming it entirely."
+    context: "The vaccine formula was **modified** to better target newer variants of the virus.",
+    difficulty: "easy",
+    synonyms: ["altered", "adjusted", "adapted", "revised", "amended"],
+    tip: "Implies a change made to improve or update something already in existence."
   },
   {
     word: "monitoring",
-    context: "Continuous **monitoring** of air quality has informed new emissions targets.",
+    context: "Continuous **monitoring** of water quality helps detect contamination early.",
     difficulty: "easy",
-    synonyms: ["observation", "surveillance", "tracking", "oversight"],
-    tip: "The ongoing observation of a process or system to check for changes."
+    synonyms: ["tracking", "surveillance", "observation", "oversight"],
+    tip: "Implies ongoing, systematic observation rather than a one-off check."
   },
   {
     word: "network",
-    context: "A robust support **network** is crucial for recovering addicts.",
+    context: "Refugees often rely on informal support **networks** to navigate life in a new country.",
     difficulty: "easy",
-    synonyms: ["system", "web", "circle", "grid"],
-    tip: "An interconnected system of people, organisations, or infrastructure."
+    synonyms: ["system", "web", "grid", "connections"],
+    tip: "Can describe physical infrastructure (a transport network) or social connections (a support network)."
   },
   {
     word: "objective",
-    context: "The report's central **objective** was to identify barriers to female employment.",
-    difficulty: "medium",
+    context: "The programme's main **objective** is to reduce youth unemployment by ten percent.",
+    difficulty: "easy",
     synonyms: ["goal", "aim", "purpose", "target"],
-    tip: "Can also mean 'unbiased' as an adjective, distinct from its noun sense of 'goal'."
+    tip: "As an adjective, 'objective' also means impartial — distinct from its noun sense of a goal."
   },
   {
     word: "orientation",
-    context: "New employee **orientation** now includes mandatory diversity training.",
+    context: "New employees attend a two-day **orientation** to familiarise themselves with company policies.",
     difficulty: "medium",
     synonyms: ["induction", "introduction", "briefing"],
-    tip: "An introductory process, or figuratively, a general direction or attitude."
+    tip: "Can refer to an introductory programme, or more abstractly, a person's attitude or direction ('political orientation')."
   },
   {
     word: "perspective",
-    context: "Historians offer a valuable long-term **perspective** on current events.",
+    context: "Hearing from affected communities offers a valuable **perspective** often missing from policy debates.",
     difficulty: "easy",
-    synonyms: ["viewpoint", "outlook", "standpoint", "angle"],
-    tip: "A particular way of viewing or evaluating something."
+    synonyms: ["viewpoint", "standpoint", "outlook", "angle"],
+    tip: "Refers to a particular way of viewing or interpreting a situation."
   },
   {
     word: "precise",
-    context: "**Precise** figures on informal-sector employment are notoriously difficult to obtain.",
-    difficulty: "medium",
+    context: "The exact economic impact of the policy is difficult to state with **precise** figures.",
+    difficulty: "easy",
     synonyms: ["exact", "accurate", "specific", "definite"],
-    tip: "Emphasises exactness, especially in figures, language, or instructions."
+    tip: "Emphasises exactness — useful for essays discussing the reliability of data."
   },
   {
     word: "prime",
-    context: "Reducing bureaucracy was a **prime** objective of the reform agenda.",
+    context: "Urban centres remain **prime** targets for infrastructure investment due to population density.",
     difficulty: "medium",
-    synonyms: ["main", "principal", "chief", "foremost"],
-    tip: "The most important or significant, especially among several factors."
+    synonyms: ["principal", "main", "leading", "foremost"],
+    tip: "As an adjective, means of first importance — also used as a verb meaning to prepare someone or something."
   },
   {
     word: "psychology",
-    context: "Understanding consumer **psychology** helps firms design more effective advertising.",
+    context: "Understanding consumer **psychology** helps companies design more effective advertising.",
     difficulty: "medium",
-    synonyms: ["mindset", "mentality", "mental processes"],
-    tip: "The study of, or the workings of, the human mind and behaviour."
+    synonyms: ["mindset", "mentality", "thought processes"],
+    tip: "Refers to the study of the mind, or, more loosely, a person's or group's typical way of thinking."
   },
   {
     word: "pursue",
-    context: "The government continues to **pursue** a policy of trade liberalisation.",
-    difficulty: "medium",
-    synonyms: ["follow", "carry out", "pursue further", "chase"],
-    tip: "To continue with or follow a course of action, goal, or interest."
+    context: "Many graduates now **pursue** careers outside their original field of study.",
+    difficulty: "easy",
+    synonyms: ["follow", "chase", "seek", "aim for", "strive for"],
+    tip: "Implies sustained effort toward a goal, not a single action."
   },
   {
     word: "ratio",
-    context: "The teacher-to-student **ratio** directly affects the quality of instruction.",
+    context: "The student-to-teacher **ratio** has a measurable impact on classroom outcomes.",
     difficulty: "medium",
     synonyms: ["proportion", "rate", "balance"],
-    tip: "A quantitative relationship between two amounts, showing how many times one contains the other."
+    tip: "Expresses the quantitative relationship between two amounts."
   },
   {
     word: "rejected",
-    context: "The proposal was **rejected** by a narrow margin in parliament.",
+    context: "The proposal was **rejected** by the committee due to concerns over its long-term cost.",
     difficulty: "easy",
-    synonyms: ["dismissed", "turned down", "declined", "refused"],
-    tip: "To refuse to accept, believe, or agree with something."
+    synonyms: ["turned down", "dismissed", "declined", "refused"],
+    tip: "Implies a formal or deliberate refusal to accept something."
   },
   {
     word: "revenue",
-    context: "Falling tax **revenue** has forced local councils to cut services.",
+    context: "A significant share of government **revenue** comes from indirect taxation.",
     difficulty: "easy",
     synonyms: ["income", "earnings", "receipts", "proceeds"],
-    tip: "Income generated from business activity or, more broadly, government taxation."
+    tip: "Refers specifically to money generated through business or government activity, not personal wages."
   },
   {
     word: "stability",
-    context: "Political **stability** is often a prerequisite for sustained economic growth.",
-    difficulty: "medium",
-    synonyms: ["steadiness", "constancy", "equilibrium", "security"],
-    tip: "A state of being firmly established and unlikely to change suddenly."
+    context: "Political **stability** is often a precondition for sustained foreign investment.",
+    difficulty: "easy",
+    synonyms: ["steadiness", "security", "constancy", "equilibrium"],
+    tip: "The opposite of 'volatility' or 'instability' — implies a lack of sudden or disruptive change."
   },
   {
     word: "styles",
-    context: "Leadership **styles** vary considerably between cultures and generations.",
+    context: "Teaching **styles** must adapt to accommodate a wide range of learning needs.",
     difficulty: "easy",
-    synonyms: ["approaches", "methods", "manners"],
-    tip: "Distinctive ways in which something is done or expressed."
+    synonyms: ["approaches", "methods", "manners", "techniques"],
+    tip: "Refers to a distinctive way of doing something, often reflecting personal or cultural preference."
   },
   {
     word: "substitution",
-    context: "The rising cost of meat has driven consumer **substitution** toward plant-based proteins.",
+    context: "The rising cost of meat has led many consumers toward plant-based **substitution**.",
     difficulty: "hard",
-    synonyms: ["replacement", "swapping", "exchange"],
-    tip: "The act of replacing one thing with another."
+    synonyms: ["replacement", "swap", "alternative"],
+    tip: "Refers to replacing one thing with another, often of similar function."
   },
   {
     word: "sustainable",
-    context: "The report questions whether current growth rates are environmentally **sustainable**.",
+    context: "Balancing economic growth with environmental limits is central to achieving **sustainable** development.",
     difficulty: "medium",
-    synonyms: ["viable", "renewable", "maintainable", "durable"],
-    tip: "Capable of being maintained over the long term without depleting resources."
+    synonyms: ["renewable", "viable long-term", "eco-friendly", "enduring"],
+    tip: "Implies something can continue indefinitely without depleting the resources it depends on."
   },
   {
     word: "symbolic",
-    context: "The treaty's significance was largely **symbolic** rather than practical.",
-    difficulty: "medium",
-    synonyms: ["representative", "emblematic", "token", "figurative"],
-    tip: "Representing something else, often more important than its literal effect."
+    context: "The treaty's signing was largely **symbolic**, with few binding obligations attached.",
+    difficulty: "hard",
+    synonyms: ["representative", "emblematic", "figurative", "token"],
+    tip: "Implies something represents a larger idea, often without substantial practical effect."
   },
   {
     word: "target",
-    context: "The scheme fell well short of its **target** for reducing carbon emissions.",
+    context: "The government set an ambitious **target** to cut carbon emissions by half within a decade.",
     difficulty: "easy",
     synonyms: ["goal", "objective", "aim", "benchmark"],
-    tip: "A specific result or level that an effort is designed to achieve."
+    tip: "As a verb, 'to target' means to specifically aim at or focus on a particular group or outcome."
   },
   {
     word: "transition",
-    context: "The **transition** to a low-carbon economy will require substantial investment.",
+    context: "The **transition** to a low-carbon economy will require significant investment in new infrastructure.",
     difficulty: "medium",
-    synonyms: ["shift", "changeover", "conversion", "passage"],
-    tip: "The process of changing from one state or condition to another."
+    synonyms: ["shift", "changeover", "conversion", "move"],
+    tip: "Implies a gradual passage from one state or condition to another."
   },
   {
     word: "trend",
-    context: "The **trend** toward remote work is likely to persist beyond the pandemic.",
+    context: "The **trend** toward remote work is likely to persist even after the pandemic subsides.",
     difficulty: "easy",
-    synonyms: ["tendency", "pattern", "direction", "movement"],
-    tip: "A general direction in which something is developing or changing."
+    synonyms: ["pattern", "movement", "direction", "tendency"],
+    tip: "Describes a general direction in which something is developing over time."
   },
   {
     word: "version",
-    context: "An updated **version** of the app addresses several security flaws.",
+    context: "The updated **version** of the app addresses several long-standing security flaws.",
     difficulty: "easy",
     synonyms: ["edition", "variant", "iteration", "form"],
-    tip: "A particular form of something that differs from other forms of the same type."
+    tip: "Refers to a particular form of something that exists in multiple, similar forms."
   },
   {
     word: "welfare",
-    context: "Cuts to **welfare** spending disproportionately affect low-income families.",
-    difficulty: "medium",
-    synonyms: ["well-being", "social security", "benefits"],
-    tip: "Refers to the health, happiness, and security of a person or group, or state support for these."
+    context: "Critics argue that cuts to **welfare** programmes disproportionately affect the most vulnerable.",
+    difficulty: "easy",
+    synonyms: ["wellbeing", "social support", "public assistance"],
+    tip: "Can mean general wellbeing, or specifically government support for those in need."
   },
   {
     word: "whereas",
-    context: "Urban areas enjoy reliable broadband access, **whereas** rural regions often lack basic connectivity.",
+    context: "Manufacturing output rose in the north, **whereas** it declined sharply in the south.",
     difficulty: "medium",
     synonyms: ["while", "in contrast", "on the other hand"],
-    tip: "A formal connector used to introduce a contrast between two clauses."
+    tip: "A formal connective for highlighting a contrast between two clauses."
   },
   {
-    word: "nullify",
-    context: "A single clerical error can **nullify** an otherwise valid contract.",
-    difficulty: "hard",
-    synonyms: ["invalidate", "void", "annul", "cancel", "override"],
-    tip: "A formal legal/logical term for making something legally void, not merely weakening it."
-  },
-  {
-    word: "delete",
-    context: "Users can request platforms to permanently **delete** their personal data.",
+    word: "cope",
+    context: "Without adequate mental health support, many students struggle to **cope** with academic pressure.",
     difficulty: "easy",
-    synonyms: ["remove", "erase", "expunge", "eliminate"],
-    tip: "Commonly used for digital information, distinct from physical removal."
+    synonyms: ["manage", "deal with", "handle", "get by", "endure"],
+    tip: "Usually followed by 'with' — 'cope with stress', 'cope with change'."
   },
   {
-    word: "sensible",
-    context: "A **sensible** compromise was reached after weeks of negotiation.",
+    word: "power",
+    context: "Authoritarian leaders often consolidate **power** by weakening independent institutions.",
     difficulty: "easy",
-    synonyms: ["reasonable", "practical", "prudent", "wise"],
-    tip: "Do not confuse with 'sensitive' — 'sensible' means showing good judgement."
+    synonyms: ["authority", "control", "influence", "dominance", "command"],
+    tip: "Can refer to political authority, physical strength, or energy — context determines which sense applies."
   },
   {
-    word: "awareness",
-    context: "Public **awareness** campaigns have helped reduce smoking rates significantly.",
-    difficulty: "easy",
-    synonyms: ["consciousness", "knowledge", "recognition", "understanding"],
-    tip: "Refers to knowing or perceiving a situation, often the goal of educational campaigns."
-  },
-  {
-    word: "information",
-    context: "Access to accurate **information** is essential during a public health crisis.",
-    difficulty: "easy",
-    synonyms: ["data", "facts", "knowledge", "details"],
-    tip: "An uncountable noun — never 'informations' in standard English."
-  },
-  {
-    word: "law",
-    context: "The new **law** requires firms to disclose data breaches within 72 hours.",
-    difficulty: "easy",
-    synonyms: ["legislation", "statute", "regulation", "act"],
-    tip: "Can refer to a specific rule or, more broadly, the entire legal system."
-  },
-  {
-    word: "propose",
-    context: "The committee will **propose** amendments to the current tax code next month.",
-    difficulty: "easy",
-    synonyms: ["suggest", "put forward", "recommend", "submit"],
-    tip: "To formally suggest a plan or idea for consideration."
-  },
-  {
-    word: "assert",
-    context: "The report **asserts** that current climate targets are unrealistic without reform.",
+    word: "abuse",
+    context: "Executives were accused of **abusing** their position to secure favourable contracts for family members.",
     difficulty: "medium",
-    synonyms: ["claim", "maintain", "contend", "declare"],
-    tip: "Implies confident, forceful statement of a claim, often without full proof."
+    synonyms: ["misuse", "exploit", "take advantage of", "mistreat"],
+    tip: "As used here, 'abuse' means to misuse a position or power, not physical harm."
   },
   {
-    word: "rationale",
-    context: "The government has yet to provide a clear **rationale** for the policy shift.",
+    word: "selfish",
+    context: "Critics dismissed the executive's decision as **selfish**, prioritising short-term bonuses over the company's survival.",
+    difficulty: "easy",
+    synonyms: ["self-centred", "egotistical", "self-serving", "inconsiderate"],
+    tip: "The opposite of 'altruistic' — implies prioritising one's own interest at others' expense."
+  },
+  {
+    word: "discord",
+    context: "The controversial ruling sowed **discord** within the party, splitting members into rival factions.",
     difficulty: "hard",
-    synonyms: ["reasoning", "justification", "basis", "logic"],
-    tip: "The underlying set of reasons for a decision or course of action."
+    synonyms: ["conflict", "disagreement", "friction", "disunity", "strife"],
+    tip: "A formal, slightly literary word for disagreement or tension within a group."
   },
   {
-    word: "consensus",
-    context: "Scientific **consensus** on the issue has strengthened considerably in recent years.",
+    word: "criticise",
+    context: "Environmental groups **criticised** the government for approving the pipeline without a full impact assessment.",
+    difficulty: "easy",
+    synonyms: ["condemn", "denounce", "censure", "fault", "rebuke"],
+    tip: "British spelling; 'criticize' is the American spelling — both mean to express disapproval."
+  },
+  {
+    word: "incalculable",
+    context: "The long-term cost of losing biodiversity is arguably **incalculable**, extending far beyond economic measures.",
+    difficulty: "hard",
+    synonyms: ["immeasurable", "inestimable", "boundless", "untold"],
+    tip: "Emphasises that something is too vast or complex to be precisely quantified."
+  },
+  {
+    word: "trauma",
+    context: "Survivors of the disaster often carry psychological **trauma** long after the physical damage has been repaired.",
     difficulty: "medium",
-    synonyms: ["agreement", "unanimity", "accord", "common view"],
-    tip: "General agreement among a group, especially experts, rather than a formal vote."
+    synonyms: ["distress", "anguish", "psychological injury", "shock"],
+    tip: "In everyday use it's often used loosely, but in a clinical sense it refers to a deeply distressing experience with lasting effects."
   },
   {
-    word: "qualified",
-    context: "Only **qualified** professionals are permitted to administer the treatment.",
+    word: "story",
+    context: "The documentary tells the **story** of a community rebuilding after decades of industrial decline.",
+    difficulty: "easy",
+    synonyms: ["account", "narrative", "tale", "chronicle"],
+    tip: "Can mean a factual account or a fictional narrative — context clarifies which is meant."
+  },
+  {
+    word: "lives",
+    context: "The new vaccine has already saved countless **lives** across the region.",
+    difficulty: "easy",
+    synonyms: ["existences", "personal circumstances", "everyday realities"],
+    tip: "The plural of 'life' — often paired with verbs like 'save', 'change', or 'affect' to emphasise human impact."
+  },
+  {
+    word: "accountability",
+    context: "Whistle-blower protections are essential for maintaining **accountability** within large corporations.",
     difficulty: "medium",
-    synonyms: ["certified", "licensed", "accredited", "competent"],
-    tip: "Can also mean 'limited' or 'conditional', as in 'qualified support'."
+    synonyms: ["responsibility", "answerability", "liability", "transparency"],
+    tip: "Refers to being answerable for one's actions or decisions, especially to those affected by them."
   },
   {
-    word: "nuanced",
-    context: "The debate demands a more **nuanced** understanding than simple for-or-against positions allow.",
-    difficulty: "hard",
-    synonyms: ["balanced", "sophisticated", "refined", "layered", "subtle"],
-    tip: "Describes fine, often overlooked distinctions within a complex issue."
+    word: "cynical",
+    context: "Years of broken campaign promises have left many voters **cynical** about politics altogether.",
+    difficulty: "medium",
+    synonyms: ["sceptical", "distrustful", "jaded", "disillusioned"],
+    tip: "Implies a general distrust of others' motives, often born from repeated disappointment."
   },
   {
-    word: "tentative",
-    context: "Negotiators reached a **tentative** agreement pending final approval from both governments.",
+    word: "overgeneralisation",
+    context: "Dismissing an entire generation as lazy is an **overgeneralisation** that ignores significant individual variation.",
     difficulty: "hard",
-    synonyms: ["provisional", "preliminary", "uncertain", "conditional"],
-    tip: "Signals something not yet fixed or confirmed, open to change."
+    synonyms: ["sweeping statement", "generalisation", "broad-brush claim", "stereotype"],
+    tip: "A logical flaw where a conclusion drawn from limited cases is applied too broadly — useful for critiquing weak arguments."
+  },
+  {
+    word: "attention span",
+    context: "Educators worry that constant notifications are shortening students' **attention span**.",
+    difficulty: "medium",
+    synonyms: ["concentration span", "focus", "ability to concentrate"],
+    tip: "Refers to the length of time a person can sustain focus on a single task."
+  },
+  {
+    word: "epiphany",
+    context: "It was only after losing his job that he had an **epiphany** about the fragility of his previous lifestyle.",
+    difficulty: "hard",
+    synonyms: ["revelation", "realisation", "moment of insight", "awakening"],
+    tip: "A sudden, often life-changing realisation — stronger and more personal than simply 'understanding'."
+  },
+  {
+    word: "occasional",
+    context: "Beyond the **occasional** setback, the recovery has generally stayed on track.",
+    difficulty: "easy",
+    synonyms: ["infrequent", "sporadic", "intermittent", "periodic"],
+    tip: "Describes something happening now and then, rather than regularly or constantly."
+  },
+  {
+    word: "elicit",
+    context: "The survey was designed to **elicit** honest feedback from employees who might otherwise stay silent.",
+    difficulty: "hard",
+    synonyms: ["draw out", "evoke", "provoke", "bring about", "extract"],
+    tip: "Don't confuse with 'illicit' (illegal) — 'elicit' means to draw out a response or reaction."
+  },
+  {
+    word: "obsession",
+    context: "Social media has fuelled an unhealthy **obsession** with curated, idealised images of everyday life.",
+    difficulty: "medium",
+    synonyms: ["fixation", "preoccupation", "compulsion", "infatuation"],
+    tip: "Implies an excessive, often unhealthy, degree of focus on a single idea or activity."
+  },
+  {
+    word: "unabashedly",
+    context: "The film is **unabashedly** stylised, making no attempt to portray its violence realistically.",
+    difficulty: "hard",
+    synonyms: ["unapologetically", "openly", "shamelessly", "boldly"],
+    tip: "Signals that something is done without embarrassment or hesitation, even if it might invite criticism."
+  },
+  {
+    word: "choreographed",
+    context: "Every fight scene felt meticulously **choreographed**, prioritising visual spectacle over narrative logic.",
+    difficulty: "medium",
+    synonyms: ["staged", "orchestrated", "planned", "arranged"],
+    tip: "Originally a term for dance, now widely used for any carefully planned sequence of movement or action."
+  },
+  {
+    word: "dazzling",
+    context: "Critics praised the film's **dazzling** visual effects, even as they questioned its shallow characterisation.",
+    difficulty: "medium",
+    synonyms: ["stunning", "spectacular", "brilliant", "impressive"],
+    tip: "Describes something so striking it almost overwhelms the senses — often used of visuals or performances."
+  },
+  {
+    word: "theatrical",
+    context: "The villain's **theatrical** speeches undercut the story's attempt to feel grounded and realistic.",
+    difficulty: "medium",
+    synonyms: ["dramatic", "exaggerated", "stagey", "melodramatic"],
+    tip: "Can describe genuine stage drama, or, more critically, behaviour that seems performed rather than sincere."
+  },
+  {
+    word: "music",
+    context: "The film's score uses **music** to heighten tension during its most dramatic sequences.",
+    difficulty: "easy",
+    synonyms: ["score", "soundtrack", "composition"],
+    tip: "In film criticism, 'score' specifically refers to the music composed for a film, distinct from licensed songs."
+  },
+  {
+    word: "destroy",
+    context: "A single scandal can **destroy** a reputation built over decades.",
+    difficulty: "easy",
+    synonyms: ["ruin", "demolish", "devastate", "wreck", "obliterate"],
+    tip: "Can be literal (physical destruction) or figurative (a reputation, a relationship, an argument)."
+  },
+  {
+    word: "complexity",
+    context: "Reducing the conflict to a simple story of good versus evil ignores its underlying **complexity**.",
+    difficulty: "medium",
+    synonyms: ["intricacy", "complication", "nuance", "sophistication"],
+    tip: "Refers to the degree to which something involves many interconnected parts or considerations."
+  },
+  {
+    word: "fidelity to the creed",
+    context: "The vigilante's absolute **fidelity to the creed** left no room for compromise, even when compromise seemed the more humane choice.",
+    difficulty: "hard",
+    synonyms: ["loyalty to the code", "devotion to the principle", "strict adherence to the doctrine"],
+    tip: "A formal phrase for unwavering loyalty to a set of guiding principles or beliefs."
+  },
+  {
+    word: "idealised",
+    context: "The film presents an **idealised** version of heroism, glossing over the moral compromises real vigilantism would involve.",
+    difficulty: "hard",
+    synonyms: ["romanticised", "glorified", "glamorised", "sanitised"],
+    tip: "Implies presenting something as better or purer than it would be in reality."
+  },
+  {
+    word: "vigilante",
+    context: "The story follows a **vigilante** who takes justice into his own hands after losing faith in the legal system.",
+    difficulty: "medium",
+    synonyms: ["self-appointed enforcer", "one-man justice-seeker", "masked avenger"],
+    tip: "Refers to someone who enforces the law without legal authority — a recurring figure in debates about justice and due process."
+  },
+  {
+    word: "belief",
+    context: "The character's unwavering **belief** in his own righteousness blinds him to the harm his actions cause.",
+    difficulty: "easy",
+    synonyms: ["conviction", "faith", "certainty", "confidence"],
+    tip: "Can refer to religious faith, or more generally, a firmly held opinion or conviction."
+  },
+  {
+    word: "emulate",
+    context: "Young viewers may be tempted to **emulate** the vigilante's methods without grasping their real-world consequences.",
+    difficulty: "hard",
+    synonyms: ["imitate", "copy", "mimic", "model oneself on"],
+    tip: "Implies imitating someone specifically because you admire them, not just copying at random."
+  },
+  {
+    word: "consume",
+    context: "Teenagers now **consume** the majority of their entertainment through short-form video rather than television.",
+    difficulty: "medium",
+    synonyms: ["watch", "view", "take in", "absorb"],
+    tip: "As used here, 'consume' means to watch or engage with media, distinct from its literal sense of eating or using up resources."
+  },
+  {
+    word: "bystander",
+    context: "The film raises uncomfortable questions about the moral responsibility of the **bystander** who does nothing to intervene.",
+    difficulty: "medium",
+    synonyms: ["onlooker", "witness", "observer", "spectator"],
+    tip: "Refers to someone present at an event who does not participate — often invoked in discussions of moral responsibility."
   }
 ];
