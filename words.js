@@ -1,11 +1,3 @@
-// WORD BANK
-// Each entry: the target word, an A-level GP-style context sentence with the
-// word in **bold** markers, a difficulty band, a list of accepted paraphrase
-// answers (single words or short phrases), and a one-line usage tip shown
-// after the student answers.
-//
-// Add your own entries anywhere in this array — the app picks them up
-// automatically. Wrap the target word in the context sentence with ** **.
 
 const WORD_BANK = [
   {
@@ -341,7 +333,7 @@ const WORD_BANK = [
     word: "opportunity",
     context: "Globalisation has created new **opportunities** for small businesses to reach international markets.",
     difficulty: "easy",
-    synonyms: ["chance", "prospect", "opening", "possibility", "avenue"],
+    synonyms: ["chances", "prospects", "openings", "possibilities", "avenues"],
     tip: "A neutral, versatile word — pairs well with 'create', 'seize', or 'provide'."
   },
   {
@@ -432,14 +424,14 @@ const WORD_BANK = [
     word: "reveal",
     context: "Leaked documents **revealed** the extent of the corporation's environmental violations.",
     difficulty: "easy",
-    synonyms: ["expose", "disclose", "unveil", "uncover", "divulge"],
+    synonyms: ["exposed", "disclosed", "unveiled", "uncovered", "divulged"],
     tip: "Suggests something previously hidden is now made known."
   },
   {
     word: "infer",
     context: "From the tone of the press release, analysts **inferred** that the merger talks had collapsed.",
     difficulty: "medium",
-    synonyms: ["deduce", "conclude", "gather", "surmise", "extrapolate"],
+    synonyms: ["deduced", "concluded", "gathered", "surmised", "extrapolated"],
     tip: "To infer is to draw a conclusion from evidence — don't confuse with 'imply', which is what the speaker does."
   },
   {
@@ -495,7 +487,7 @@ const WORD_BANK = [
     word: "deprive",
     context: "Censorship laws risk **depriving** citizens of access to independent journalism.",
     difficulty: "medium",
-    synonyms: ["deny", "withhold from", "strip of", "rob of", "dispossess"],
+    synonyms: ["denying", "withholding", "stripping", "robbing", "dispossessing"],
     tip: "Always takes an object plus 'of' — 'deprive someone of something'."
   },
   {
