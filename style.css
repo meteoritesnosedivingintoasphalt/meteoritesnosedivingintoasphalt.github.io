@@ -52,7 +52,7 @@ header .eyebrow {
 }
 
 header h1 {
-  font-family: "Arial";
+  font-family: "Caveat", cursive;
   font-weight: 700;
   font-size: 2.6rem;
   margin: 2px 0 4px;
@@ -117,7 +117,37 @@ header p {
   cursor: pointer;
 }
 
-.controls button.secondary:hover { border-color: var(--chalk-yellow); }
+.controls button.secondary:hover:not(:disabled) { border-color: var(--chalk-yellow); }
+
+.controls button.secondary.active {
+  border-color: var(--chalk-yellow);
+  color: var(--chalk-yellow);
+}
+
+.controls button.secondary:disabled,
+.controls select:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* ---------- Retry-mode banner ---------- */
+
+.mode-banner {
+  margin: 0 0 14px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px dashed rgba(232, 196, 104, 0.5);
+  color: var(--chalk-yellow);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.mode-banner[hidden] { display: none; }
+
+.mode-banner.success {
+  border-color: rgba(143, 191, 138, 0.55);
+  color: var(--chalk-green);
+}
 
 /* ---------- Main board panel ---------- */
 
@@ -262,6 +292,14 @@ button.chalk-btn:disabled { opacity: 0.4; cursor: not-allowed; }
   color: var(--chalk-dim);
   margin: 6px 0 14px;
 }
+
+.list-note {
+  font-size: 0.85rem;
+  color: var(--chalk-yellow);
+  margin: -6px 0 14px;
+}
+
+.list-note:empty { display: none; }
 
 .model-answers {
   font-size: 0.88rem;

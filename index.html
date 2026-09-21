@@ -40,8 +40,11 @@
         <option value="medium">Medium</option>
         <option value="hard">Hard</option>
       </select>
+      <button class="secondary" id="retry-btn" disabled>Retry missed (0)</button>
       <button class="secondary" id="skip-btn">Skip word</button>
     </div>
+
+    <div class="mode-banner" id="mode-banner" role="status" aria-live="polite" hidden></div>
 
     <main class="board-panel">
       <span class="difficulty-tag" id="difficulty-tag">medium</span>
@@ -59,6 +62,7 @@
           <span class="score-band" id="score-band"></span>
         </div>
         <p class="feedback-msg" id="feedback-msg"></p>
+        <p class="list-note" id="list-note"></p>
         <div class="model-answers">
           <div class="heading">Model paraphrases</div>
           <div class="list" id="model-list"></div>
@@ -71,7 +75,7 @@
     </main>
 
     <footer>
-      Scores are stored only in your browser. <button id="reset-stats-btn">Reset progress</button>
+      Scores and missed words are stored only in your browser. <button id="reset-stats-btn">Reset progress</button>
     </footer>
   </div>
 

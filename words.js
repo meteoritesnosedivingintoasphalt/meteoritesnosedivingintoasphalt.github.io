@@ -2568,5 +2568,250 @@ const WORD_BANK = [
     difficulty: "medium",
     synonyms: ["onlooker", "witness", "observer", "spectator"],
     tip: "Refers to someone present at an event who does not participate — often invoked in discussions of moral responsibility."
+  },
+  {
+    word: "rights",
+    context: "Campaigners argue that animals deserve legal **rights** that shield them from needless suffering.",
+    difficulty: "medium",
+    synonyms: ["entitlements", "privileges", "freedoms", "prerogatives", "claims"],
+    tip: "Moral or legal claims that a person or being is entitled to — closely tied to 'entitlements' and 'freedoms'."
+  },
+  {
+    word: "scale",
+    context: "Few people grasp the sheer **scale** of food waste in wealthy nations.",
+    difficulty: "medium",
+    synonyms: ["magnitude", "extent", "size", "enormity", "proportions"],
+    tip: "Refers to the size or extent of something, especially something large or serious."
+  },
+  {
+    word: "amenities",
+    context: "The new estate is popular with families thanks to its **amenities**, including parks, libraries and sports halls.",
+    difficulty: "medium",
+    synonyms: ["facilities", "services", "conveniences", "comforts", "resources"],
+    tip: "Facilities or features that make a place comfortable or convenient to live in — almost always plural."
+  },
+  {
+    word: "treatment",
+    context: "The **treatment** of migrant workers in the construction industry has drawn sharp criticism from human rights groups.",
+    difficulty: "medium",
+    synonyms: ["handling", "management", "dealings with", "conduct towards"],
+    tip: "Here it means how someone is handled or dealt with; in medicine it means care given for an illness."
+  },
+  {
+    word: "stark",
+    context: "The pandemic exposed a **stark** contrast between those who could work from home and those who could not.",
+    difficulty: "medium",
+    synonyms: ["sharp", "glaring", "striking", "marked", "pronounced", "unmistakable"],
+    tip: "Often paired with 'contrast', 'reality' or 'warning' — signals something plain and impossible to ignore."
+  },
+  {
+    word: "healthy",
+    context: "Older adults who stay socially active tend to remain **healthy** for longer.",
+    difficulty: "easy",
+    synonyms: ["hale", "robust", "fit", "vigorous", "hearty"],
+    tip: "'Hale' is a formal, slightly old-fashioned word for healthy, usually used of older people ('hale and hearty')."
+  },
+  {
+    word: "physical",
+    context: "Chronic stress takes a **physical** toll, from headaches to heart disease.",
+    difficulty: "easy",
+    synonyms: ["bodily", "corporeal", "somatic"],
+    tip: "Relates to the body rather than the mind — a common contrast in essays on health and wellbeing."
+  },
+  {
+    word: "sarcastic",
+    context: "Her **sarcastic** remarks about the new policy drew laughter but did little to advance the debate.",
+    difficulty: "medium",
+    synonyms: ["mocking", "sardonic", "ironic", "scornful", "caustic", "biting"],
+    tip: "Implies saying one thing while meaning the opposite, in order to mock or wound."
+  },
+  {
+    word: "experiences",
+    context: "Travel exposes young people to **experiences** that no classroom can replicate.",
+    difficulty: "easy",
+    synonyms: ["encounters", "adventures", "episodes", "events", "incidents"],
+    tip: "As a noun, an event or occurrence that a person lives through — common in essays on personal growth."
+  },
+  {
+    word: "experiencing",
+    context: "Communities **experiencing** rapid population decline often struggle to keep basic services running.",
+    difficulty: "easy",
+    synonyms: ["undergoing", "encountering", "facing", "enduring", "going through", "suffering"],
+    tip: "Means living through or undergoing something; often paired with difficult states such as hardship or decline."
+  },
+  {
+    word: "intertwine",
+    context: "Poverty and poor health **intertwine** in ways that make each harder to escape.",
+    difficulty: "hard",
+    synonyms: ["interlink", "interweave", "interconnect", "entwine", "entangle", "twist together"],
+    tip: "Suggests two things becoming so closely woven together that they are hard to separate."
+  },
+  {
+    word: "proximity",
+    context: "Residents complained about the factory's **proximity** to the primary school.",
+    difficulty: "medium",
+    synonyms: ["closeness", "nearness", "adjacency", "vicinity"],
+    tip: "Nearness in space, time or relationship — usually followed by 'to'."
+  },
+  {
+    word: "sentient",
+    context: "Growing evidence that many animals are **sentient** has strengthened calls for stricter welfare laws.",
+    difficulty: "hard",
+    synonyms: ["conscious", "aware", "feeling", "capable of feeling"],
+    tip: "Able to perceive and feel things — central to debates about animal welfare and artificial intelligence."
+  },
+  {
+    word: "devastation",
+    context: "The **devastation** felt by families who lost their livelihoods was compounded by months of official silence.",
+    difficulty: "medium",
+    synonyms: ["desolation", "grief", "distress", "anguish", "despair", "heartbreak"],
+    tip: "Here it describes overwhelming emotional shock and grief; it can also mean widespread physical destruction, so let context decide."
+  },
+  {
+    word: "overcome",
+    context: "Many refugees **overcome** enormous obstacles to rebuild their lives abroad.",
+    difficulty: "medium",
+    synonyms: ["surmount", "conquer", "defeat", "beat", "rise above"],
+    tip: "Implies successfully defeating a difficulty, not merely coping with it."
+  },
+  {
+    word: "distressing",
+    context: "Footage of the flooding proved so **distressing** that broadcasters issued warnings to viewers.",
+    difficulty: "medium",
+    synonyms: ["upsetting", "harrowing", "disturbing", "traumatic", "painful", "heartbreaking"],
+    tip: "Causing upset, anxiety or pain — stronger than 'unpleasant'."
+  },
+  {
+    word: "resolve",
+    context: "Despite repeated setbacks, the team's **resolve** never wavered.",
+    difficulty: "medium",
+    synonyms: ["determination", "tenacity", "steadfastness", "firmness", "grit", "perseverance"],
+    tip: "As a noun, firm determination to keep going; as a verb it means to settle a problem, so watch the sense."
+  },
+  {
+    word: "quixotic",
+    context: "Critics dismissed the pledge to eradicate poverty within a decade as **quixotic**.",
+    difficulty: "hard",
+    synonyms: ["idealistic", "unrealistic", "impractical", "utopian", "starry-eyed", "fanciful"],
+    tip: "From Don Quixote — describes idealism that is noble in spirit but impractical."
+  },
+  {
+    word: "deadly",
+    context: "Health officials warned that the virus could prove **deadly** for elderly patients.",
+    difficulty: "easy",
+    synonyms: ["fatal", "lethal", "life-threatening", "mortal", "fatally"],
+    tip: "Capable of causing death; 'lethal' stresses the power to kill, while 'fatal' often describes an outcome."
+  },
+  {
+    word: "awry",
+    context: "Even carefully drafted plans can go **awry** when circumstances change without warning.",
+    difficulty: "hard",
+    synonyms: ["wrong", "amiss", "askew", "astray", "off course", "off track"],
+    tip: "Almost always appears in the phrase 'go awry' — meaning to go wrong or off course."
+  },
+  {
+    word: "deliberately",
+    context: "The company **deliberately** understated the risks in order to reassure nervous investors.",
+    difficulty: "easy",
+    synonyms: ["intentionally", "purposely", "knowingly", "on purpose", "wilfully", "consciously"],
+    tip: "Signals that an act was planned and fully conscious rather than accidental — important when assigning blame."
+  },
+  {
+    word: "hamper",
+    context: "Bureaucratic red tape can **hamper** efforts to deliver aid quickly.",
+    difficulty: "medium",
+    synonyms: ["hinder", "impede", "obstruct", "hold back", "restrict", "prevent"],
+    tip: "To make progress difficult or slow; it stops short of blocking something entirely."
+  },
+  {
+    word: "mistrust",
+    context: "Repeated scandals have deepened public **mistrust** of the press.",
+    difficulty: "medium",
+    synonyms: ["doubt", "distrust", "suspicion", "scepticism", "wariness", "misgiving"],
+    tip: "A general lack of trust or confidence in someone or something, often built up over time."
+  },
+  {
+    word: "unfounded",
+    context: "Claims that the new policy will destroy small businesses appear largely **unfounded**.",
+    difficulty: "medium",
+    synonyms: ["groundless", "unsupported", "baseless", "unjustified", "unsubstantiated"],
+    tip: "Describes claims, fears or suspicions that have no evidence behind them."
+  },
+  {
+    word: "sensationalising",
+    context: "Tabloid newspapers are often accused of **sensationalising** minor incidents to boost sales.",
+    difficulty: "hard",
+    synonyms: ["exaggerating", "dramatising", "overplaying", "embellishing", "hyping", "overhyping"],
+    tip: "Presenting events in an exaggerated, shocking way to attract attention — usually a criticism of the media."
+  },
+  {
+    word: "paralysed",
+    context: "Political infighting has **paralysed** the government, leaving urgent reforms stalled.",
+    difficulty: "medium",
+    synonyms: ["immobilised", "crippled", "incapacitated", "hamstrung", "unable to function", "brought to a standstill"],
+    tip: "Literally means unable to move; figuratively, unable to act or function effectively."
+  },
+  {
+    word: "unparalleled",
+    context: "The city's rapid growth has created **unparalleled** demand for affordable housing.",
+    difficulty: "hard",
+    synonyms: ["unprecedented", "unmatched", "unrivalled", "unequalled", "peerless", "unsurpassed", "without equal"],
+    tip: "Means having no equal or match — a strong, formal way of stressing that something is exceptional."
+  },
+  {
+    word: "requisite",
+    context: "Many graduates lack the **requisite** experience to secure senior roles.",
+    difficulty: "hard",
+    synonyms: ["necessary", "essential", "required", "indispensable", "needed"],
+    tip: "Formal for 'necessary for a purpose' — usually appears before a noun, as in 'the requisite skills'."
+  },
+  {
+    word: "professional",
+    context: "Patients should be able to rely on the judgement of a trained medical **professional**.",
+    difficulty: "easy",
+    synonyms: ["specialist", "expert", "practitioner"],
+    tip: "As a noun, someone qualified and paid to work in a skilled occupation such as medicine or law."
+  },
+  {
+    word: "easily",
+    context: "Routine paperwork can be **easily** automated with widely available software.",
+    difficulty: "easy",
+    synonyms: ["simply", "effortlessly", "readily", "without difficulty", "with ease", "straightforwardly"],
+    tip: "Means without difficulty or effort; 'readily' is a more formal alternative."
+  },
+  {
+    word: "spread",
+    context: "Activists use social media to **spread** information about environmental damage.",
+    difficulty: "easy",
+    synonyms: ["disseminate", "circulate", "broadcast", "propagate", "share", "distribute"],
+    tip: "In this sense, to make information or ideas reach many people; 'disseminate' is the formal equivalent."
+  },
+  {
+    word: "increase",
+    context: "The government plans to **increase** spending on public transport over the next decade.",
+    difficulty: "easy",
+    synonyms: ["escalate", "raise", "boost", "hike", "step up", "expand"],
+    tip: "As a verb, to make something greater in amount; 'escalate' usually suggests a rapid or worrying rise."
+  },
+  {
+    word: "death",
+    context: "Public health campaigns have helped to lower **death** rates from heart disease.",
+    difficulty: "easy",
+    synonyms: ["mortality", "fatality"],
+    tip: "In statistics and formal writing, 'mortality' is the standard word for rates of death."
+  },
+  {
+    word: "chaos",
+    context: "The sudden collapse of the banking system plunged the country into **chaos**.",
+    difficulty: "easy",
+    synonyms: ["disorder", "confusion", "mess", "turmoil", "mayhem", "pandemonium"],
+    tip: "Complete disorder and confusion, usually with no one in control."
+  },
+  {
+    word: "loot",
+    context: "During the blackout, gangs began to **loot** shops across the city.",
+    difficulty: "medium",
+    synonyms: ["plunder", "pillage", "ransack", "raid", "steal from", "rob"],
+    tip: "To steal goods from a place during a riot, war or disaster, when law and order has broken down."
   }
 ];

@@ -6,17 +6,22 @@
    ============================================================ */
 
 const STORAGE_KEY = "gp-paraphrase-stats-v1";
+const MISSED_KEY = "gp-paraphrase-missed-v1";
 
 const state = {
-  pool: [],          // words filtered by chosen difficulty
+  mode: "normal",     // "normal" (all words) or "retry" (missed words only)
+  pool: [],           // words available in the current mode
   usedIndices: [],    // indices already shown this cycle (avoids repeats)
   current: null,
-  answered: false
+  answered: false,
+  notice: ""          // one-off message shown in the banner (e.g. "all cleared")
 };
 
 const els = {
   difficultySelect: document.getElementById("difficulty-select"),
   skipBtn: document.getElementById("skip-btn"),
+  retryBtn: document.getElementById("retry-btn"),
+  modeBanner: document.getElementById("mode-banner"),
   difficultyTag: document.getElementById("difficulty-tag"),
   targetWord: document.getElementById("target-word"),
   contextBox: document.getElementById("context-box"),
@@ -26,6 +31,7 @@ const els = {
   scoreNum: document.getElementById("score-num"),
   scoreBand: document.getElementById("score-band"),
   feedbackMsg: document.getElementById("feedback-msg"),
+  listNote: document.getElementById("list-note"),
   modelList: document.getElementById("model-list"),
   modelTip: document.getElementById("model-tip"),
   nextBtn: document.getElementById("next-btn"),
@@ -84,9 +90,16 @@ function sharesRoot(word, target) {
   return w.slice(0, len) === t.slice(0, len);
 }
 
-function inputReusesTargetWord(input, target) {
-  const tokens = tokenize(input);
-  return tokens.some(tok => sharesRoot(tok, target));
+// Words listed in `synonyms` are always allowed, even if they happen to share
+// their first letters with the target (e.g. "required" for "requisite",
+// "disturbing" for "distressing"). Only the target word itself is never exempt.
+function inputReusesTargetWord(input, target, acceptedWords = []) {
+  const targetNorm = normalize(target);
+  return tokenize(input).some(tok =>
+    tok === targetNorm ||
+    (sharesRoot(tok, target) &&
+      !acceptedWords.some(a => similarity(tok, a) >= 0.84))
+  );
 }
 
 /* ---------------- Scoring engine ---------------- */
@@ -107,7 +120,8 @@ function scoreAnswer(rawInput, entry) {
     return { score: 0, band: "poor", reason: "No answer given." };
   }
 
-  if (inputReusesTargetWord(input, entry.word)) {
+  const acceptedWords = entry.synonyms.flatMap(tokenize);
+  if (inputReusesTargetWord(input, entry.word, acceptedWords)) {
     return {
       score: 12,
       band: "poor",
@@ -202,25 +216,146 @@ function recordAttempt(score, band) {
   renderStats();
 }
 
+/* ---------------- Missed words (for retry mode) ---------------- */
+/*
+  A word counts as "missed" when the answer scores below "good" (i.e. band is
+  "fair" or "poor") — the same rule the streak uses. Missed words are saved in
+  localStorage and stay there until the student scores "good" or better on
+  them, in retry mode or in normal practice.
+  Entries are keyed by word + context, so the same word can appear with
+  different sentences without the two being confused.
+*/
+
+function wordKey(entry) {
+  return entry.word.toLowerCase() + "::" + entry.context;
+}
+
+function loadMissedKeys() {
+  try {
+    const raw = localStorage.getItem(MISSED_KEY);
+    const parsed = raw ? JSON.parse(raw) : [];
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveMissedKeys(keys) {
+  try {
+    localStorage.setItem(MISSED_KEY, JSON.stringify(keys));
+  } catch {
+    /* localStorage unavailable — missed words just won't persist */
+  }
+}
+
+function isMissed(entry) {
+  return loadMissedKeys().includes(wordKey(entry));
+}
+
+function addMissed(entry) {
+  const keys = loadMissedKeys();
+  const key = wordKey(entry);
+  if (!keys.includes(key)) {
+    keys.push(key);
+    saveMissedKeys(keys);
+  }
+}
+
+function removeMissed(entry) {
+  const key = wordKey(entry);
+  saveMissedKeys(loadMissedKeys().filter(k => k !== key));
+}
+
+// Only words still in the bank count (edited or deleted entries are ignored).
+function getMissedEntries() {
+  const keys = new Set(loadMissedKeys());
+  return WORD_BANK
+    .map((entry, i) => ({ entry, i }))
+    .filter(({ entry }) => keys.has(wordKey(entry)));
+}
+
+function renderRetryUI() {
+  const left = getMissedEntries().length;
+  const inRetry = state.mode === "retry";
+
+  els.retryBtn.textContent = inRetry ? "Exit retry mode" : `Retry missed (${left})`;
+  els.retryBtn.classList.toggle("active", inRetry);
+  els.retryBtn.disabled = !inRetry && left === 0;
+  els.retryBtn.title = els.retryBtn.disabled
+    ? "Words you score below Good on will be saved here for another try"
+    : "";
+
+  if (inRetry) {
+    els.modeBanner.textContent =
+      `Retry mode — ${left} missed word${left === 1 ? "" : "s"} left. ` +
+      "Score Good or better to clear a word.";
+    els.modeBanner.className = "mode-banner";
+    els.modeBanner.hidden = false;
+  } else if (state.notice) {
+    els.modeBanner.textContent = state.notice;
+    els.modeBanner.className = "mode-banner success";
+    els.modeBanner.hidden = false;
+  } else {
+    els.modeBanner.hidden = true;
+  }
+}
+
+function enterRetryMode() {
+  if (getMissedEntries().length === 0) return;
+  state.mode = "retry";
+  state.notice = "";
+  state.usedIndices = [];
+  els.difficultySelect.disabled = true;
+  pickNextWord();
+}
+
+function exitRetryMode() {
+  state.mode = "normal";
+  els.difficultySelect.disabled = false;
+  buildPool();
+  pickNextWord();
+}
+
 /* ---------------- Word cycling ---------------- */
 
 function buildPool() {
-  const chosen = els.difficultySelect.value;
-  state.pool = WORD_BANK
-    .map((entry, i) => ({ entry, i }))
-    .filter(({ entry }) => chosen === "all" || entry.difficulty === chosen);
+  if (state.mode === "retry") {
+    state.pool = getMissedEntries();
+  } else {
+    const chosen = els.difficultySelect.value;
+    state.pool = WORD_BANK
+      .map((entry, i) => ({ entry, i }))
+      .filter(({ entry }) => chosen === "all" || entry.difficulty === chosen);
+  }
   state.usedIndices = [];
 }
 
 function pickNextWord() {
-  if (state.pool.length === 0) buildPool();
-  if (state.usedIndices.length >= state.pool.length) state.usedIndices = [];
+  if (state.mode === "retry") {
+    // The missed list shrinks as words are cleared, so refresh it each time
+    // (without resetting the no-repeat cycle).
+    state.pool = getMissedEntries();
+    if (state.pool.length === 0) {
+      state.notice = "All caught up — every missed word has been cleared. Nice work!";
+      exitRetryMode();
+      return;
+    }
+  } else if (state.pool.length === 0) {
+    buildPool();
+  }
 
-  let choice;
-  do {
-    choice = state.pool[Math.floor(Math.random() * state.pool.length)];
-  } while (state.usedIndices.includes(choice.i) && state.pool.length > 1);
+  let candidates = state.pool.filter(p => !state.usedIndices.includes(p.i));
+  if (candidates.length === 0) {
+    state.usedIndices = [];
+    candidates = state.pool;
+  }
+  // Don't show the same word twice in a row if there's an alternative.
+  if (candidates.length > 1 && state.current) {
+    const others = candidates.filter(p => p.entry !== state.current);
+    if (others.length) candidates = others;
+  }
 
+  const choice = candidates[Math.floor(Math.random() * candidates.length)];
   state.usedIndices.push(choice.i);
   state.current = choice.entry;
   renderWord();
@@ -244,6 +379,9 @@ function renderWord() {
   els.answerInput.disabled = false;
   els.submitBtn.disabled = false;
   els.feedback.classList.remove("show");
+  els.listNote.textContent = "";
+  els.nextBtn.textContent = "Next word →";
+  renderRetryUI();
   els.answerInput.focus();
 }
 
@@ -268,6 +406,20 @@ function submitAnswer() {
   els.scoreBand.textContent = bandLabel(result.band);
   els.feedbackMsg.textContent = result.reason;
 
+  // Keep the missed list up to date (a "miss" is anything below Good).
+  const passed = result.band === "excellent" || result.band === "good";
+  const wasMissed = isMissed(entry);
+  if (passed) {
+    if (wasMissed) removeMissed(entry);
+    els.listNote.textContent = wasMissed ? "Cleared from your missed list." : "";
+  } else {
+    if (!wasMissed) addMissed(entry);
+    els.listNote.textContent = wasMissed
+      ? "Still on your missed list — you'll see it again in retry mode."
+      : "Added to your missed list — retry it any time.";
+  }
+  state.notice = "";
+
   els.modelList.innerHTML = entry.synonyms
     .map(s => `<span class="pill">${s}</span>`)
     .join("");
@@ -275,6 +427,12 @@ function submitAnswer() {
 
   els.feedback.classList.add("show");
   recordAttempt(result.score, result.band);
+
+  // In retry mode, the last cleared word turns "Next" into "Finish".
+  if (state.mode === "retry" && getMissedEntries().length === 0) {
+    els.nextBtn.textContent = "Finish →";
+  }
+  renderRetryUI();
 }
 
 function bandLabel(band) {
@@ -289,14 +447,30 @@ els.answerInput.addEventListener("keydown", e => {
 });
 els.nextBtn.addEventListener("click", pickNextWord);
 els.skipBtn.addEventListener("click", pickNextWord);
+els.retryBtn.addEventListener("click", () => {
+  if (state.mode === "retry") {
+    state.notice = "";
+    exitRetryMode();
+  } else {
+    enterRetryMode();
+  }
+});
 els.difficultySelect.addEventListener("change", () => {
+  if (state.mode !== "normal") return;
   buildPool();
   pickNextWord();
 });
 els.resetStatsBtn.addEventListener("click", () => {
-  if (confirm("Reset your saved progress on this device?")) {
+  if (confirm("Reset your saved progress (stats and missed words) on this device?")) {
     saveStats({ attempts: 0, totalScore: 0, streak: 0, bestStreak: 0 });
+    saveMissedKeys([]);
     renderStats();
+    state.notice = "";
+    if (state.mode === "retry") {
+      exitRetryMode();
+    } else {
+      renderRetryUI();
+    }
   }
 });
 
